@@ -25,6 +25,12 @@ import lindissima.LindApp;
 		//call super class constuctor
 		super(LindApp);
 		
+		//add background if not present
+		if (!_root.bg){
+			//attach background
+			_root.attachMovie("lindissima_bg", "bg", 0, {txtTitle:LindApp.getMsg("general.txtTitle")});
+		}
+		
 		//get id of current activity 
 		//if not menu principal then add home button
 		//and set subtitle to ""

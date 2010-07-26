@@ -415,9 +415,6 @@ class stepByStep.activity.Init extends core.util.GenericMovieClip{
 	 */
 	private function step11():Void{
 		
-		//attach background
-		_root.attachMovie("stepByStep_bg", "bg", 0, {txtTitle:StepByStepApp.getMsg("general.txtTitle")});
-		
 		//remove load texts
 		this["loadLang"].removeMovieClip();
 		this["loadData"].removeMovieClip();

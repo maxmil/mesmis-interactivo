@@ -440,6 +440,9 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	 * Step 14 - Remove clips and open curtain
 	 */
 	private function step13():Void{
+	
+		//attach background
+		_root.attachMovie("lindissima_bg", "bg", 0, {txtTitle:StepByStepApp.getMsg("general.txtTitle")});
 		
 		//remove load texts
 		this["loadLang"].removeMovieClip();
