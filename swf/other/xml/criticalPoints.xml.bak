@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<criticalPoint>
+	<id>1</id>
+	<literal>Bajos rendimientos de maíz y baja disponibilidad de forraje</literal>
+	<description></description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>2</id>
+	<literal>Poco o nulo margen de ganancia monetario</literal>
+	<description></description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>3</id>
+	<literal>Degradación del suelo</literal>
+	<description></description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>4</id>
+	<literal>Alta diversidad de variedades agrícolas</literal>
+	<description></description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>5</id>
+	<literal>Baja capacidad de innovación</literal>
+	<description></description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>6</id>
+	<literal>Justa distribución de los ingresos familiares</literal>
+	<description></description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>7</id>
+	<literal>Baja dependencia del exterior</literal>
+	<description></description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>8</id>
+	<literal>Organización familiar para las labores agrícolas</literal>
+	<description></description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>

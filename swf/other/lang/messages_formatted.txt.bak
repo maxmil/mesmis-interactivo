@@ -1,0 +1,103 @@
+intro.interactiveDemo=Demonstración interactiva
+intro.colaborators=Colaboradores
+intro.colab1=Luis Garcia
+intro.colab2=Marta Astier
+intro.colab3=Omar Masera
+intro.colab4=Tamara Ortiz
+intro.colab5=Yankuic Galvan
+intro.colab6=Max Pimm
+
+defineSystem.introText.text=$n$n$n$nEste primer módulo ilustra cómo caracterizar un sistema agrosilvopastoril. Para esto deberás identificar correctamente:$n$n	Los subsistemas$n	Los componentes de cada subsistema$n	Los flujos que hay entre ellos y hacia el exterior del sistema
+defineSystem.introText.title=CARACTERIZACIÓN DE LOS SISTEMAS DE MANEJO DE RECURSOS NATURALES
+defineSystem.introText2.text=El sistema está constituido por cuatro subsistemas: agrícola, forestal, pecuario y la unidad familiar.
+defineSystem.startSubsystems.text=Para comenzar con el ejercicio agrega los subsistemas presionando el botón "Agregar Subsistemas".
+defineSystem.concludeSubsystems.text=Para volver a ver la descripción de cualquier subsistema presiona el cuadro correspondiente.
+defineSystem.startComponents.text=Cada subsistema a su vez contiene diferentes componentes que le brindan características propias. Identifica para cada subsistema los componentes que lo constituyen.$n$nSelecciona un componente para ver su descripción e intégralo al subsistema correspondiente.$n$nPresiona "Agregar Componentes" para continuar.
+defineSystem.halfwayComponents.text=Presiona agregar componentes para incluir los componentes que faltan o en siguiente para continuar con el ejercicio (se agregarán automáticamente todos los componentes).
+defineSystem.concludeComponents.text=Para ver la descripción de cada componente presiona el círculo correspondiente.
+defineSystem.startFlows.intro=El sistema funciona a partir las interacciones que mantienen los subsistemas entre sí y con el exterior. Estas interacciones se definen a partir de la información del sistema y los flujos de materia y energía. Selecciona un flujo para ver su descripción y relacionarlo con un subsistema de salida y otro de entrada.$n$nPresiona "Agregar Flujos" para continuar.
+defineSystem.halfwayFlows.text=Presiona agregar flujos para incluir los flujos que faltan o en siguiente para continuar con el ejercicio (se agregarán automáticamente todos los flujos).
+defineSystem.concludeFlows.text=Para ver la descripción de cada flujo presiona la flecha correspondiente.$n$nPresiona siguiente para continuar.
+defineSystem.strongweak.intro.text=$n$n$n$nLas fortalezas y debilidades se refieren a aquellos aspectos o procesos que limitan o incrementan la capacidad de los sistemas para sostenerse en el tiempo, es decir su habilidad para ser productivos, estables, equitativos, adaptables y autogestivos.$n$nUna vez que conocemos la estructura y el funcionamiento de los sistemas de manejo podemos identificar aquellas características que los hacen fuertes y aquellas que los debilitan. Para identificarlos resulta útil preguntarse ¿Cuáles son los puntos donde el sistema de manejo es más vulnerable?, ¿Cuáles son los aspectos que lo fortalecen?, en términos de sus retornos, eficiencia, conservación, distribución de costos y beneficios, etc.$n$nFinalmente es importante considerar a todos los actores relacionados con el sistema, ya que por lo general es necesario priorizar los aspectos que se van a evaluar. Operativamente, la forma más conveniente de identificar fortalezas y debilidades es la realización de discusiones de grupo en las que se logren consensos.
+defineSystem.strongweak.intro.title=IDENTIFICACIÓN DE FORTALEZAS Y DEBILIDADES
+defineSystem.strongweak.preshow=Definir las fortalezas y debilidades es una tarea indispensable, ya que nos permite vincular los diferentes atributos y criterios con los indicadores estratégicos de sustentabilidad.$n$nEn este ejercicio se han identificado previamente las fortalezas y debilidades para diferentes flujos, subsistemas y componentes de los subsistemas agrícola y pecuario. Las fortalezas se indican en cuadros color verde y las debilidades en cuadros de color rojo.$n$nPresiona siguiente para mostrar los fortalezaas y debilidades.
+defineSystem.conclusion.title=CONCLUSIONES
+defineSystem.conclusion.text=$n$n$n$nTexto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente.
+
+selectIndicators.introText.title=SELECCIÓN DE INDICADORES ESTRATEGICOS, MEDICION Y MONITOREO
+selectIndicators.introText.text=$n$n$n$nSELECCIÓN DE INDICADORES ESTRATÉGICOS$n$nLos indicadores son variables que permiten evaluar a lo largo del tiempo los aspectos que fortalecen o debilitan la sustentabilidad del sistema.  Son particulares a los sistemas de manejo bajo estudio; no existe por lo tanto una lista de indicadores universales.$n$nEl conjunto final de indicadores debe ser robusto, es decir debe reflejar de manera adecuada los atributos de sustentabilidad y criterios de diagnóstico, tomando en cuenta las fortalezas y debilidades del sistema de manejo analizado.$n$nUna vez definido el conjunto de indicadores estratégicos se procederá a medir y monitorear cada uno de ellos.
+selectIndicators.attribAndCriterias.title=ATRIBUTOS DE SUSTENTABILIDAD Y CRITERIOS DE DIAGNÓSTICO
+selectIndicators.attribAndCriterias.text=Los indicadores se derivan a  partir de los atributos generales de sustentabilidad y los criterios de diagnóstico.$n$nPara ver los atributos y criterios de diagnóstico presiona siguiente.
+selectIndicators.strongAndWeakPoints.title=FORTALEZAS Y DEBILIDADES
+selectIndicators.strongAndWeakPoints.text=Las fortalezas y debilidades deben cubrir todos los criterios de diagnóstico y las tres áreas de evaluación (ambiental, social y económica). Un criterio puede integrar una o más fortalezas y debilidades. Sin embargo, para simplificar el ejercicio sólo se muestra una fortaleza/debilidad para cada criterio.
+selectIndicators.indicators.title=INDICADORES ESTRATEGICOS
+selectIndicators.indicators.text=Los indicadores se definen para cada una de las fortalezas y debilidades del sistema de manejo. Este proceso nos permite incluir indicadores que nos den información sobre aspectos críticos de nuestro sistema y no una lista interminable de poca utilidad.$n$nEs posible que en este paso tengamos todavía una lista muy grande de indicadores, por lo que será necesario priorizar indicadores, eligiendo aquellos que sean integradores, fáciles de medir y confiables.
+selectIndicators.allShown.text=Para ver una descripción de los atributos, criterios e indicadores presiona el cuadro correspondiente.$n$nPresiona siguiente para continuar con el ejercicio
+selectIndicators.attributesDetail.title=Atributos
+selectIndicators.attributesDetail.text=Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. Texto Pendiente. 
+selectIndicators.conclusion.title=CONCLUSIONES
+selectIndicators.conclusion.text=$n$n$n$nTexto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente Texto pendiente.
+
+selectComponents.title=Seleccionar Componentes
+selectComponents.detailpane.title=Detalle Componente
+selectComponents.error.noCompSelected=Por favor selecciona un componente para agregar
+selectComponents.error.noSubsysSelected=Por favor seleccione el subsistema del componente {0}
+selectComponents.error.wrongSubsystem=El componente {0} no pertence al subsistema {1}
+
+selectFlows.title=Seleccionar Flujos
+selectFlows.detailpane.title=Detalle Flujo
+selectFlows.selectSubsysExit=Seleccionar el subsistema de salida del flujo
+selectFlows.selectSubsysEntry=Seleccionar el subsistema de entrada del flujo
+selectFlows.error.noFlowSelected=Por favor selecciona un flujo para agregar
+selectFlows.error.noSubsysExitSelected=Por favor seleccione el subsistema de salida del flujo {0}
+selectFlows.error.noSubsysEntrySelected=Por favor seleccione el subsistema de entrada del flujo {0}
+selectFlows.error.wrongSubsystems=El flujo {0} no va del {1} al {2}
+
+defineAmoebas.introText.title=INTEGRACIÓN Y PRESENTACIÓN DE RESULTADOS
+defineAmoebas.introText.text=$n$nEn este módulo se realizará un ejercicio de integración de resultados. Se van a comparar dos sistemas de manejo: un sistema agrícola tradicional (SAT) y un sistema agrícola comercial (SAC). El SAT es un sistema cuyo propósito es la producción para autoconsumo, de bajos insumos, diversificado y con alta demanda de mano de obra familiar. El SAC es un sistema tecnificado cuyo propósito es la producción para autoconsumo y venta de excedentes.$n$n$n$nPara realizar el ejercicio debemos:$n$n1. Presentar los indicadores en una tabla o matriz.$n$n2. Estandarizar los valores de los indicadores$n$n3. Representar de manera gráfica, clara y transparente los resultados$n$n4. Analizar las relaciones sinérgicas y de competencia entre indicadores de sustentabilidad
+defineAmoebas.introTabla.title=PRESENTACION DE LOS INDICADORES EN UNA MATRIZ
+defineAmoebas.introTabla.text=Es importante sintetizar los indicadores en una matriz tabla como la que se muestra en pantalla. En esta matriz deben quedar señalados por  lo menos:$n$n	El nombre del indicador,$n	Las unidades de medida utilizadas,$n	El objetivo deseado (i.e. si se trata de maximizar ó minimizar),$n	Los valores del indicador en los sistemas que se están comparando$n	Los valores de referencia para cada indicador.
+defineAmoebas.standardization.title=ESTANDARIZACIÓN DE LOS VALORES DE LOS INDICADORES
+defineAmoebas.standardization.text=$nPara estandarizar los valores de los indicadores se utiliza un intervalo como valores de referencia; un valor mínimo que representa el peor valor posible que puede tomar un indicador y un valor máximo que representa el mejor valor posible.  El valor estandarizado del indicador representa una proporción de dicho intervalo, que puede interpretarse como un porcentaje o nivel de satisfacción del indicador determinado. Matemáticamente podemos expresar esta relación de acuerdo con,$n$n$n$n$n$n$n$nen donde NSji es el nivel de satisfacción para cada sistema de manejo (j) en cada indicador (i), xji es el valor del indicador i para el sistema de manejo j y min xji y max xji son respectivamente el valor mínimo y máximo del intervalo definido para cada indicador (i); xji, min xji y max xji se expresan en las unidades originales. En nuestro ejemplo multiplicamos NSji X 100, para expresar el valor en porcentajes, sin embargo se puede utilizar cualquier otra escala.$n$nEl valor mínimo puede definirse de acuerdo a valores críticos, por debajo de los cuales el sistema se vuelve insostenible o inaceptable para determinado grupo de actores sociales. El valor máximo puede representar valores de referencia promedio o extremos para la localidad o región estudiada (por ejemplo rendimientos máximo obtenido en una localidad o periodo).$n$nNOTA. Cuando el objetivo es minimizar la interpretación del mínimo y máximo es inversa, es decir, el mínimo representa nuestro mejor escenario, mientras que el máximo representa el peor. Debemos sustituir entonces (xji-min xji) por (max xji- xji).
+defineAmoebas.detailPane.initText=Para visualizar una descripción sobre el método de medición de los indicadores utilizados simplemente presiona el cursor en la fila de cada indicador.
+defineAmoebas.initExcercise.title=ESTANDARIZACION Y CONSTRUCCIÓN DE LA REPRESENTACIÓN GRÁFICA
+defineAmoebas.initExcercise.text=En este ejercicio vamos a estandarizar los indicadores y construir una AMOEBA para la presentación de resultados. En este tipo de gráficos, también llamados radiales, cada indicador se representa en un eje, estandarizado de acuerdo al método descrito con anterioridad.$n$nPara facilitar el ejercicio hemos calculado previamente el nivel de satisfacción para seis indicadores, pero tendrás que hacerlo tú mismo para los indicadores: Beneficio/Costo, Balance de nutrientes y Erosión.$n$nAbre la Pantalla de Estandarización haciendo clic en la fila del indicador correspondiente en la Tabla de Síntesis de Resultados.$n$nPara visualizar el método de medición de los indicadores utilizados simplemente sobrepón el cursor en la fila de cada indicador.
+defineAmoebas.introAmoeba.title=AMOEBA
+defineAmoebas.introAmoeba.text=El gráfico AMOEBA (A general method of ecological and biological assessment), basado en una gráfica radial, fue originalmente diseñado para evaluar sistemas ecológicos. Desde entonces se ha popularizado en diversos análisis integrados de sustentabilidad. Es un método bondadoso, ya que es flexible y puede adaptarse a diferentes necesidades.$n$nPara la construcción de la grafica es necesario transformar las unidades de medida originales del indicador a una unidad común, de manera que sea posible utilizar ejes simétricos. Cada eje de la gráfica radial representa un indicador estandarizado, la forma de la AMOEBA la determinan los valores que toma el sistema en cada radio. Cada uno de estos puntos se une mediante líneas para formar el polígono final.$n$nLa AMOEBA que se presenta en este ejercicio integra algunas modificaciones realizadas por Gomiero (2004), que incluye el uso de dominios cualitativos y el cero separado del punto central.$n$nLos dominios o regiones cualitativas son muy útiles para visualizar con mayor facilidad y claridad la situación del indicador, en nuestro ejemplo incluimos 4 posibles estados: muy pobre, pobre, aceptable, excelente.$n$nLa separación del cero del centro permite distinguir con mayor facilidad los valores cercanos o menores a cero, además de que evita impresiones demasiado negativas sobre valores bajos.
+defineAmoebas.excercise.text1=Ahora para definir los máximos y mínimos del indicator "{0}" haz click en el botón Siguiente
+defineAmoebas.excercise.text2=Observar los cambios en los amoebas de los dos sistemas para el indicador "{0}".
+defineAmoebas.excercise.text3=¿Cuáles son las ventajas relativas del sistema tradicional con respecto al comercial?$n$n¿Cuáles son las ventajas relativas del sistema comercial con respecto al tradicional?
+
+optimizer.intro.title=REPRESENTACIÓN GRÁFICA
+optimizer.intro.text=Arrastra los puntos MIN y MAX de la gráfica para definir los valores de referencia ó ingresa los datos en las celdas MIN y MAX de la tabla que se muestra en pantalla.$n$nObserva cómo cambia el nivel de satisfacción dependiendo de los valores de referencia que definas. Esto es muy importante, ya que la percepción sobre qué tan bien o qué tan mal está un indicador depende críticamente del intervalo elegido. Por esta razón se debe poner especial atención en la definición de los valores del intervalo.
+optimizer.graphic.title=GRÁFICA
+optimizer.graphic.text=La gráfica muestra el nivel de satisfacción que toman los sistemas de manejo tradicional y comercial de acuerdo al valor de cada sistema y al intervalo de valores de referencia definidos para este indicador, esta relación es expresada mediante$n$n$n$n
+optimizer.qualitative.title=VALORES CUALITATIVOS
+optimizer.qualitative.text=Las áreas coloreadas se refieren a un valor cualitativo asignado a cada rango del nivel de satisfacción.$n$nPor ejemplo si uno de nuestros sistemas se encuentra en el rango de 0-25 (color rojo), quiere decir que la satisfacción obtenida se considera "Muy pobre" y por lo tanto este indicador requiere de nuestra mayor atención. Por el contrario, si nuestro sistema se encuentra en el rango de 75-100 (color verde) se considera que este indicador tiene una satisfacción "Muy buena". Estos rangos representan zonas de "indiferencia", es decir intervalos dentro de los cuales nuestra satisfacción es la misma, sin importar el valor numérico que tome el indicador.$n$nNOTA. Se pueden definir tantos valores cualitativos como sea necesario, siempre y cuando se respete el número de clases para todos los indicadores. Alternativamente, en cada indicador, es posible definir diferentes rangos según la información sobre preferencias que se posea. Por ejemplo podríamos definir un rango más amplio (e.g. 0-50) para valores como "muy pobre" y rangos pequeños (e.g. 90-100) para valores cualitativos como "muy bueno". Para este ejemplo, con fines pedagógicos, hemos definido solo cuatro valores con intervalos iguales para todos los indicadores.
+
+tradeOff.introText.title=RELACIONES ENTRE INDICADORES
+tradeOff.introText.text=$n$nComúnmente se asume que los indicadores de sustentabilidad se pueden maximizar de manera simultánea, es decir que es posible  diseñar un sistema que al mismo tiempo sea el más productivo, estable, adaptable, equitativo y adaptable. Sin embargo en la realidad es muy difícil o imposible lograr esto, pues en general cuando tratamos de mejorar un atributo provocamos cambios en otros atributos del sistema. Algunos cambios pueden ser sinérgicos, i.e. que un indicador afecte de manera positiva a otro indicador (a más de uno más del otro); o bien  pueden ser de competencia, i.e. que un indicador afecte de manera negativa a otro indicador (a más de uno menos del otro).
+tradeOff.slideBar.titleTxt=Niveles de Sulfato de Amonio
+tradeOff.slideBar.desc=Deslizar el guia para variar los niveles o insertar el valor directamente en el campo "Nivel Actual"
+tradeOff.slideBar.actualLevel=Nivel Actual:
+tradeOff.presExcercise.title=RELACIONES ENTRE INDICADORES
+tradeOff.presExcercise.text=$nEste módulo está diseñado para mostrar las relaciones entre indicadores. La gráfica que se muestra en pantalla representa al sistema agrícola tradicional en el primer ciclo de evaluación. La productividad de este sistema es relativamente baja y hay pocos incentivos para que sea sustentable, por lo que queremos hacerlo más rentable aplicando fertilizantes químicos.$n$nMaximiza la productividad del sistema agrícola tradicional.$n$nMueve la barra los niveles de fertilizante requeridos para incrementar la producción agrícola
+tradeOff.questions.title=PREGUNTAS
+tradeOff.questions.text=¿Qué cambios observas en el sistema alternativo?$n$n¿Qué indicadores están correlacionados?$n$n¿Qué indicadores presentan relaciones de competencia?$n$n¿Qué indicadores presentan relaciones sinérgicas?$n$n¿Cuál sería el nivel óptimo de productividad considerando todos los indicadores simultáneamente?
+
+btn.enter=Entrar
+btn.next=Siguiente
+btn.previous=Anterior
+btn.accept=Aceptar
+btn.cancel=Cancelar
+btn.close=Cerrar
+btn.add=Agregar
+btn.addSubsystem=Agregar Subsistema
+btn.addComponents=Agregar Componentes
+btn.addFlows=Agregar Flujos
+btn.graphic=Gráfica
+btn.restartExcercise=Recomencar ejercicio
+btn.qualitativeValues=Valores Cualitativos
+
+combo.select=-- Seleccionar --
+

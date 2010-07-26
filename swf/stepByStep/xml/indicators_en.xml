@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<indicator>
+	<id>1</id>
+	<type>quantative</type>
+	<literal>Cost/Benefit Ratio</literal>
+    	<description>To calculate the Cost/Benefit ratio, we divided the total cost per hectare required to maintain agricultural production by the income per hectare obtained. Costs include all inputs necessary to maintain the system, including seeds, work animals, and the opportunity cost for labor. Incomes were estimated using annual production of grains and forage multiplied by its commercial value. The C/B ratio was 2.2 for the RAS, and 1.4 for the AAS.</description>
+	<attrib>Productivity</attrib>
+	<units>Coefficient</units>
+	<objective>max</objective>
+	<tradSystem>2.2</tradSystem>	
+	<comSystem>1.4</comSystem>
+	<areaEval>Economic</areaEval>
+	<measureMethod>TXTXTXTXT</measureMethod>
+	<measureDesc></measureDesc>
+	<min>1</min>
+	<max>2.4</max>
+	<maxLimit>3</maxLimit>
+	<tradSystemCalc></tradSystemCalc>
+	<comSystemCalc></comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize>true</isOptimize>
+	<optimizeDesc>Whatminimum value do you think would represent the worst scenario for this indicator? What maximum value would be the best scenario?
+For C/B ratio, values lower than 1 reveal economic losses for the system, that is, investments are higher than revenues. A value of 1 indicates equilibrium between investments and returns. In this case, there would be no profits and, thus, no incentives for production. In Casas Blancas, the maximum value for C/B ratio was 2.2</optimizeDesc>
+	<tradeOffQuotient>-50</tradeOffQuotient>
+	<img></img>
+	<graphic>rend_biomasa_gr</graphic>
+</indicator>
+<indicator>
+	<id>2</id>
+	<type>quantative</type>
+	<literal>Energy Efficiency </literal>
+	<description>The value for this indicator is the quotient between energy consumed during production (input) and the energy produced by the system (output). Energy consumption and productivity estimates are based on energy equivalents of inputs and products in rainfed agriculture as reported by different studies.
+According to these estimations, both systems are highly efficient. This is because they are largely based on traditional energy sources, such as animal traction, human labor, and organic fertilizers. Energy efficiency for the AAS is 17; while energy efficiency for the RAS is 15.</description>
+	<attrib>Productivity</attrib>
+	<units>Coefficient</units>
+	<objective>max</objective>
+	<comSystem>17</comSystem>
+	<tradSystem>14</tradSystem>
+	<areaEval>Economic</areaEval>
+	<measureMethod>Questionnaires and direct measurements</measureMethod>
+	<measureDesc></measureDesc>
+	<min>1</min>
+	<max>20</max>
+	<maxLimit>20</maxLimit>
+	<comSystemCalc>64</comSystemCalc>
+	<tradSystemCalc>82</tradSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>10</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>3</id>
+	<type>quantative</type>
+	<literal>Nutrient Balance</literal>
+	<description>Balance of critical soil macronutrients is determined by a series of inputs and outputs.
+Inputs
+Fertilization in the RAS is basically 1 ton pig manure and 200 kg/ha di-ammonium sulfate during the planting, and 100 kg/ha ammonium sulfate on the first weeding. In the AAS, fertilization is based on a greater use of organic fertilizers. Furthermore, chemical fertilizers are replaced by nitrogen fixation through bean-maize intercropping. In addition, both agricultural systems receive nutrient inputs through cattle manure and urine deposits during the 3 months of fallow.
+Outputs
+Nutrient outputs are mostly through extractions of biomass: maize and bean grains, and crop residues. Other important outputs are caused by water erosion and runoff. Total nitrogen flows were determined to assess the nutrient balance on both systems. To avoid negative numbers in the integration of results, we calculated the quotient of inputs divided by outputs (instead of the difference). The nutrient balance was 1.2 for the RAS and 1.0 for the AAS.</description>
+<attrib>Stability</attrib>
+	<units>Coefficient</units>
+	<objective>max</objective>
+	<tradSystem>1.2</tradSystem>
+	<comSystem>1</comSystem>
+	<areaEval>Environmental</areaEval>
+	<measureMethod>Direct measurements</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0.8</min>
+	<max>1.2</max>
+	<maxLimit>3</maxLimit>
+	<tradSystemCalc></tradSystemCalc>
+	<comSystemCalc></comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize>true</isOptimize>
+	<optimizeDesc> What minimum value do you believe would to represent the worst scenario for this indicator? What maximum value would indicate the best scenario?
+A value below 1 would mean the system is losing soil fertility and nutrient availability. A value of 1 would denote a system in balance where nutrient inputs compensate outputs.
+</optimizeDesc>
+	<tradeOffQuotient>10</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>4</id>
+	<type>quantative</type>
+	<literal>Erosion</literal>
+	<description>Plots with 8% slopes cultivated with maize under conventional tillage registered soil losses of up to 2 ton/ha/year. Applying manure allows the formation of soil aggregates that favor water infiltration and are more resistant to runoff. The quantity of manure applied in the RAS, however, was so small that no such positive effect was detected.
+On the AAS, 50% of the forage produced was left as mulch to protect soil from water erosion. This type of management reduced erosion to 1 ton/ha/year.</description>
+	<attrib>Stability</attrib>
+	<units>ton/ha/year</units>
+	<objective>min</objective>
+	<tradSystem>2</tradSystem>
+	<comSystem>1</comSystem>
+	<areaEval>Environmental</areaEval>
+	<measureMethod>Random sampling of plots, questionnaires</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0.6</min>
+	<max>3</max>
+	<maxLimit>10</maxLimit>
+	<tradSystemCalc></tradSystemCalc>
+	<comSystemCalc></comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize>true</isOptimize>
+   	<optimizeDesc>What minimum value do you consider would represent the optimum levels of erosion? What maximum value would be the worst scenario in terms of erosion?
+Casas Blancas’ plots have slopes of 4% to 13% and shallow soils. Critical levels of erosion for this type of soils are 3 ton/ha/year or higher. Conservation tillage and mulching with crop cover residues, it is possible to reduce erosion down to 0.6 ton/ha/year. Fr terrain with 4 to 13% slopes and shallow soil, 3 ton/ha/year is considered critical</optimizeDesc>
+	<tradeOffQuotient>70</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>5</id>
+	<type>quantative</type>
+	<literal>Diversity of crop species and varieties</literal>
+	<description>Maize is the main crop in Casas Blancas. In the RAS, white maize varieties are the most common, while cream-colored maize is less so. Squash and fig-leaf gourd are also cultivated but at very low densities. On average, producers on the RAS use 5 different types of crops, including varieties of maize and vegetables. 
+Besides these five, the AAS integrates beans and peas intercropped with maize. The diversity for this system totals 7 crop species and varieties. </description>
+	<attrib> </attrib>
+	<units>Species and varieties</units>
+	<objective>max</objective>
+	<tradSystem>5</tradSystem>
+	<comSystem>7</comSystem>
+	<areaEval>Environmental</areaEval>
+	<measureMethod></measureMethod>
+	<measureDesc></measureDesc>
+	<min>1</min>
+	<max>9</max>
+	<maxLimit>10</maxLimit>
+	<tradSystemCalc>44</tradSystemCalc>
+	<comSystemCalc>67</comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>0</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>6</id>
+	<type>quantative</type>
+	<literal>% of beneficiaries in government programs</literal>
+	<description>This indicator evaluates the total number of producers benefited by government programs. Only 40% of farmers benefited from some kind of government subsidy. This indicator is the same for both management systems. </description>
+	<attrib>Stability</attrib>
+	<units>%</units>
+	<objective>max</objective>
+	<tradSystem>40</tradSystem>
+	<comSystem>40</comSystem>
+	<areaEval>Environmental</areaEval>
+	<measureMethod>Questionnaires, direct measurements, bibliography review</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0</min>
+	<max>100</max>
+	<maxLimit>150</maxLimit>
+	<comSystemCalc>40</comSystemCalc>
+	<tradSystemCalc>40</tradSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>0</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>7</id>
+	<type>quantative</type>
+	<literal>% attendance at ejido assemblies</literal>
+	<description>This indicator was estimated using the total attendance of members to 20 consecutive ejido assemblies. Percent attendance refers to the average percentage of members that attended a sample for RAS, and for ASS a sample was taken five years later. Attendace to these assemblies increased from 20% in RAS to 40% in the AAS due to the farmers’ growing interest in incorporating the innovations offered by the alternative system.
+Attendance to assemblies reflects the farmers’ participation at the community level, but it is determinant in terms of management at the plot level.</description>
+	<attrib>Self-direction</attrib>
+	<units>%</units>
+	<objective>max</objective>
+	<tradSystem>20</tradSystem>
+	<comSystem>40</comSystem>
+	<areaEval>Social</areaEval>
+	<measureMethod>Questionnaires and interviews</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0</min>
+	<max>100</max>
+	<maxLimit>150</maxLimit>
+	<tradSystemCalc>20</tradSystemCalc>
+	<comSystemCalc>40</comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>0</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>8</id>
+	<type>qualitative</type>
+	<literal>Access to technological innovations</literal>
+	<description>Two of the main obstacles to incorporating new alternatives for production at Casas Blancas are the low availability of appropriate technologies and management strategies, and the farmers’ limited access to these. On the one hand, farmers with hillside plots in particular have serious problems in incorporating innovations because the topography makes the use of agricultural machinery difficult. On the other, the producers’ low incomes limit their access to agrochemicals and qualified technical assistance.
+A survey was conducted to evaluate the availability and access to agricultural machinery, agrochemicals, technical assistance, and training. An indicator value was calculated for each producer using the following point count:
+Variables.............................YES__NO
+Agricultural machinery		
+__Physical access to plots........1__0
+__Ability to pay...........................1__0
+Agrochemicals
+__ Ability to pay...........................1__0
+Technical assistance
+__Availability......................1__0
+__ Ability to pay...........................1__0
+Training
+__Availability......................1__0
+__ Ability to pay...........................1__0
+__Total...............................7__0
+Evaluation scale
+Adequate access = 6-7
+Moderate access = 4-5
+Limited access = 2-4
+No access = 0-1
+The average access to technological innovations for the RAS was 3 points (limited access). For the AAS, the average was 5 (moderate access). This higher value is due to technical assistance, seeds, and fertilizers subsidized by a non-governmental organization. </description>
+	<attrib>Adaptability</attrib>
+	<units>-</units>
+	<objective>max</objective>
+	<tradSystem>3</tradSystem>
+	<comSystem>5</comSystem>
+	<areaEval>Social</areaEval>
+	<measureMethod>Questionnaires, direct measurements, bibliography review </measureMethod>
+	<measureDesc></measureDesc>
+	<min>0</min>
+	<max>7</max>
+	<maxLimit>10</maxLimit>
+	<tradSystemCalc>42.9</tradSystemCalc>
+	<comSystemCalc>71.4</comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>5</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>9</id>
+	<type>quantative</type>
+	<literal>Dependence on external inputs</literal>
+	<description>This indicator is the percentage of monetary costs of production spent on  purchases of external inputs.
+External inputs in the RAS include manure from commercial livestock operations, chemical fertilizers, and labor employed during harvesting. These inputs account for 41% of total costs; the rest corresponds to labor, work animals, and seeds provided by the production unit. In the AAR, costs of external inputs are reduced by 15%, thus making-up 35% of total costs.</description>
+	<attrib>Self-direction</attrib>
+	<units>% external inputs</units>
+	<objective>min</objective>
+	<tradSystem>41</tradSystem>
+	<comSystem>35</comSystem>
+	<areaEval>Social</areaEval>
+	<measureMethod>Questionnaires and interviews</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0</min>
+	<max>100</max>
+	<maxLimit>150</maxLimit>
+	<tradSystemCalc>59</tradSystemCalc>
+	<comSystemCalc>65</comSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>10</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>
+<indicator>
+	<id>10</id>
+	<type>quantative</type>
+	<literal>Number of farmers in producers’ associations</literal>
+	<description>To evaluate this indicator, we used a survey to determine the number of farmers participating in some kind of organization for agricultural production. Off all the farmers, only 13 belonged to an organization. No difference between agricultural systems was found.
+Like the participation indicator, this indicator is measured at the community level, but, it is a determinant factor in the adoption of management strategies at the plot level.</description>
+	<attrib>Self-direction</attrib>
+	<units>Number of farmers</units>
+	<objective>max</objective>
+	<comSystem>13</comSystem>
+	<tradSystem>13</tradSystem>
+	<areaEval>Social</areaEval>
+	<measureMethod>Questionnaires and interviews</measureMethod>
+	<measureDesc></measureDesc>
+	<min>0</min>
+	<max>100</max>
+	<maxLimit>150</maxLimit>
+	<comSystemCalc>24.1</comSystemCalc>
+	<tradSystemCalc>24.1</tradSystemCalc>
+	<isSel>true</isSel>
+	<isOptimize></isOptimize>
+	<optimizeDesc></optimizeDesc>
+	<tradeOffQuotient>0</tradeOffQuotient>
+	<img></img>
+	<graphic></graphic>
+</indicator>

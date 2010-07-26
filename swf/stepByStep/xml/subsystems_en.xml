@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<subsystem>
+	<id>1</id>
+	<literal>AGRICULTURAL SUBSYSTEM</literal>
+	<description>Objective
+The purpose of this subsystem is supply food, especially corn and forage for livestock.
+Characteristics
+Agriculture is practiced on hillsides with 4 to 13% slopes, annual or biennial rotations alternated on 2 or 3 plots. The average producer has 6 hectares of agricultural land.</description>
+	<img>agricola.jpg</img>
+</subsystem>
+<subsystem>
+	<id>2</id>
+	<literal>FORESTRY SUBSYSTEM</literal>
+	<description>Objective
+Wood products, fuels (firewood and charcoal), medicinal and editable species are obtained from this subsystem. 
+Characteristics
+Casas Blancas producers generally assign 22 hectares (of the 30 that make up their production unit) for forestry activities. These 22 ha are subdivided into areas of natural forest (from which fuel and food are gathered) and reforestation. The pine species used in this system are: Pinus pseudostrobus Lind., Pinus michoacana Martínez, Pinus patula Schl. et Cham. and Pinus greggii Engelm.</description>
+	<img>forestal.jpg</img>
+</subsystem>
+<subsystem>
+	<id>3</id>
+	<literal>LIVESTOCK SUBSYSTEM</literal>
+	<description>Objective
+This subsystem supplies animal products (dairy products, meat, and eggs) for home-consumption, income for periodic sale, and funds in case of an emergency.
+Characteristics
+The average livestock subsystem includes: 5 heads of cattle (including the team of oxen), 2 local breed horses (horses are usually kept in the village), and poultry.</description>
+	<img>pecuario.jpg</img>
+</subsystem>
+<subsystem>
+	<id>4</id>
+	<literal>FAMILY</literal>
+	<description>Households are located away from farm plots. On their home plots, families raise animals and cultivate some species of plants. A family has six members on average. </description>
+	<img>familia.jpg</img>
+</subsystem>
+<subsystem>
+	<id>5</id>
+	<literal>EXTERIOR</literal>
+	<description></description>
+	<img></img>
+</subsystem>
+
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<flow>
+	<id>1</id>
+	<literal>Madera</literal>
+	<description>Las familias extraen madera del monte para venta en rollo en aserraderos (cuando se han cubierto las especificaciones legales) lo cual representa un ingreso anual de aproximadamente 15,000 pesos por la venta. 
+También se obtiene madera para elaboración de muebles en los talleres locales de carpintería y para construcción de cercos y vivienda.</description>
+	<subsysExit>2</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>madera.jpg</img>
+</flow>
+<flow>
+	<id>2</id>
+	<literal>Subsidios (Plantulas y Efectivo)</literal>
+	<description>El subsidio consiste en el otorgamiento de plantas y un apoyo económico de $400 pesos/ha por parte del estado para el establecimiento de las plantaciones y un pago de $880 pesos/ha/año por parte del gobierno federal para labores de mantenimiento.</description>
+	<subsysExit>5</subsysExit>
+	<subsysEntry>2</subsysEntry>
+	<img>dinero.jpg</img>
+</flow>
+<flow>
+	<id>4</id>
+	<literal>Leña y Carbon</literal>
+	<description>En los casos en los que se produce carbón, el ejidatario suele invertir en jornales para la construcción del horno. 
+La venta de carbón la realiza en la misma comunidad o en Ejidos vecinos y en ocasiones lo utiliza para el pago en especie de jornales. 
+La leña es un producto que satisface principalmente las necesidades familiares y la mayor parte es obtenida de los encinos. En ocasiones hay venta local.</description>
+	<subsysExit>2</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>lenya_carbon.jpg</img>
+</flow>
+<flow>
+	<id>3</id>
+	<literal>Otras Especies y Productos Forestales</literal>
+	<description>Los productos que obtiene el ejidatario de este ambiente son semillas (en los casos de los pinos más grandes), materia prima para artesanía y hongos en los casos en los que se ha generado el medio necesario para su crecimiento y reproducción.
+Para la obtención de productos directos del monte en promedio durante un año una persona emplea 30 días aunque generalmente, se lleva a cabo por dos personas de la familia (ejidatario e hijo o nieto) esto representa un total de 30 jornales al año.</description>
+	<subsysExit>2</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>otros_forestal.jpg</img>
+</flow>
+<flow>
+	<id>5</id>
+	<literal>Mano de obra forestal</literal>
+	<description>El ejidatario visita por lo general su parcela todos los días ya sea para realizar labores de vigilancia o de mantenimiento aunque no es necesario el trabajo diario. 
+Para el cálculo de la mano de obra requerida se consideró el promedio de las parcelas que han realizado estas labores obteniendo así una cantidad de 6.4 jornales/hectárea en un año de mantenimiento.</description>
+	<subsysExit>4</subsysExit>
+	<subsysEntry>2</subsysEntry>
+	<img>mano_forestal.jpg</img>
+</flow>
+<flow>
+	<id>6</id>
+	<literal>Leche Carne y Queso</literal>
+	<description>La producción promedio de leche es de 2.5 lt. / vaca / día.\n\nLa venta de carne es, en promedio, un animal cada 16 meses.\n\nSin embargo en la mayoría de los casos está determinada por la situación económica del productor.</description>
+	<subsysExit>3</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>queso.jpg</img>
+</flow>
+<flow>
+	<id>7</id>
+	<literal>Dinero</literal>
+	<description>Los costos de producción del ganado están básicamente relacionados con la compra de forraje (145 $/cabeza/año). Los ingresos están dados por la leche (938  $/cabeza/año) y la carne ( 7076 $/cabeza/año)</description>
+	<subsysExit>3</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>dinero.jpg</img>
+</flow>
+<flow>
+	<id>8</id>
+	<literal>Estiercol</literal>
+	<description>Cuando el ganado pastorea en el área forestal abona el terreno proporcionándole nutrientes para el crecimiento de los pinos. </description>
+	<subsysExit>3</subsysExit>
+	<subsysEntry>2</subsysEntry>
+	<img>estiercol.jpg</img>
+</flow>
+<flow>
+	<id>9</id>
+	<literal>Mano de obra pecuaria</literal>
+	<description>La mano de obra es totalmente familiar y se divide entre la ordeña y el traslado a abrevaderos durante un año lo que da un total de 165 jornales/hato/año.</description>
+	<subsysExit>4</subsysExit>
+	<subsysEntry>3</subsysEntry>
+	<img>mano_pecuario.jpg</img>
+</flow>
+<flow>
+	<id>10</id>
+	<literal>Forraje Externa</literal>
+	<description>Para el alimento del ganado algunas veces se emplea forraje comprado.</description>
+	<subsysExit>5</subsysExit>
+	<subsysEntry>3</subsysEntry>
+	<img>foraje_externa.jpg</img>
+</flow>
+<flow>
+	<id>11</id>
+	<literal>Forraje: Arvenses y Residuos de la Parcela</literal>
+	<description>La cantidad de rastrojo promedio producida al año es de 3.7 toneladas/hectárea, de las cuales 1.85 toneladas/hectárea queda como forraje disponible para el ganado, satisfaciendo así sus necesidades alimenticias.\n\nAlgunos productores cultivan pequeñas superficies con un cultivo forrajero (principalmente avena), que usan como complemento alimenticio, con lo cual recortan el periodo de engorda.</description>
+	<subsysExit>1</subsysExit>
+	<subsysEntry>3</subsysEntry>
+	<img>foraje_agricola.jpg</img>
+</flow>
+<flow>
+	<id>12</id>
+	<literal>Tracción</literal>
+	<description>La labranza se practica con yunta de bueyes para el barbecho y la siembra, y yunta de caballos para la escarda y tapado de la semilla en la siembra.\n\nDado que un número importante de ejidatarios no cuenta con yunta de bueyes propia, dan sus terrenos a medias con productores que tienen facilidades para labrar los terrenos.</description>
+	<subsysExit>3</subsysExit>
+	<subsysEntry>1</subsysEntry>
+	<img>traccion.jpg</img>
+</flow>
+<flow>
+	<id>13</id>
+	<literal>Fertilización</literal>
+	<description>La fertilización se basa principalmente en la aplicación en la siembra de una tonelada por hectárea de estiércol de res o de puerco, que los productores compran a granjas especializadas de la región.\n\nEn ocasiones se aplica además en la primera escarda un refuerzo de fertilización nitrogenada (sulfato de amonio, 21 0 0) que varía de 2 a 4 bultos por hectárea (equivalente a 21 a 42 kilogramos por hectárea de nitrógeno), dependiendo del dinero con que cuente el productor al momento de la siembra.</description>
+	<subsysExit>5</subsysExit>
+	<subsysEntry>1</subsysEntry>
+	<img>fertilizantes.jpg</img>
+</flow>
+<flow>
+	<id>14</id>
+	<literal>Subsiduos</literal>
+	<description>Los ingresos de este subsistema están dados por el subsidio de PROCAMPO que es de 880 pesos por hectárea cultivada.</description>
+	<subsysExit>5</subsysExit>
+	<subsysEntry>1</subsysEntry>
+	<img>dinero.jpg</img>
+</flow>
+<flow>
+	<id>15</id>
+	<literal>Mano de Obra Agricola</literal>
+	<description>A lo largo del ciclo, la familia aporta la mayor parte de la mano de obra, con excepción de la época de cosecha, en la que se requiere contratar algunos jornales.La mano de obra en la producción agrícola se divide en las actividades relacionadas con la precosecha (barbecho, siembra, escardas) y de cosecha dando un total de 20 jor/hectárea</description>
+	<subsysExit>4</subsysExit>
+	<subsysEntry>1</subsysEntry>
+	<img>mano_agricola.jpg</img>
+</flow>
+<flow>
+	<id>16</id>
+	<literal>Maiz</literal>
+	<description>En ocasiones hay excedentes de maíz los cuales son vendidos en mercados locales y regionales.</description>
+	<subsysExit>1</subsysExit>
+	<subsysEntry>4</subsysEntry>
+	<img>exced_maiz.jpg</img>
+</flow>
+
+
+
+
+
+
+
+

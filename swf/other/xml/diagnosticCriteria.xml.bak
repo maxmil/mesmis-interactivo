@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<diagnosticCriteria>
+	<id>1</id>
+	<literal>Retornos</literal>
+	<description>Los retornos son las ganancias (bienes y servicios) que se obtienen por la inversión monetaria, en infraestructura, recursos humanos o de fuerza de trabajo en una o varias actividades productivas. Los retornos constituyen el incentivo para el aprovechamiento de los sistemas de manejo y determinan el grado de intensificación de estos. Algunos términos equivalentes pueden ser beneficios, interés, dividendos, ganancias, rendimientos, compensación, recompensa.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>2</id>
+	<literal>Eficiencia</literal>
+	<description>Por lo regular la eficiencia indica la proporción entre un retorno y la inversión realizada para obtenerlo (monetaria, energética, tiempo, etc.). Por ejemplo la relación entre el valor de un producto de mercado y el costo de los recursos utilizados para su producción; el cumplimiento de los objetivos al menor consumo de recursos y con la máxima calidad posible; el buen uso y administración de los recursos empleados en una actividad; o puede ser una medida en la que una persona, una organización o un proceso son capaces de realizar de manera cabal la función que les compete. La eficiencia puede determinarse para actividades económicas o para procesos administrativos, culturales o ambientales de los sistemas de manejo. Los sistemas más eficientes son capaces de aprovechar mejor los retornos que obtienen, por lo que tienen menores impactos sobre su base de recursos.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>3</id>
+	<literal>Conservación</literal>
+	<description>La conservación indica la capacidad de un sistema para evitar el deterioro tanto de su estructura y función como de la base de recursos que lo sostiene. Como en los criterios anteriores, la conservación no solo se refiere a los aspectos ambientales, sino también incluye aspectos económicos y sociales como por ejemplo la capacidad de ahorro, la capacidad de mantener los bienes y servicios deseados o la conservación de conocimiento y prácticas tradicionales. La conservación pues, no se refiere a la no intervención, sino por el contrario requiere de prácticas, recursos y tecnologías dirigidas a la restauración y la prevención del deterioro de los sistemas de manejo.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>4</id>
+	<literal>Diversidad</literal>
+	<description>La diversidad indica la variedad de elementos que posee un sistema en un momento determinado, por ejemplo actividades productivas, variedades y especies agrícolas y biologicas, conocimiento, grupos étnicos, creencias religiosas, etc. Algunas medidas de diversidad, como el índice de Shannon integran, además del número de elementos, su abundancia. Los sistemas más diversos son más capaces de absorber impactos.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>5</id>
+	<literal>Capacidad de cambio e innovación</literal>
+	<description>La capacidad de cambio e innovación permite la continua renovación y transformación de los sistemas. Es la capacidad para buscar nuevas estrategias de manejo, tecnológicas y organizativas para la producción y conservación de recursos.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>6</id>
+	<literal>Distribución de costos y beneficios</literal>
+	<description>Este criterio se refiere a la equidad en cuanto a quien paga los costos y quien recibe los beneficios de las actividades productivas. Históricamente este ha sido uno de los principales problemas de los modelos tradicionales de explotación de recursos, en los que se maximizan las ganancias y se reducen los costos para ciertos sectores, a costa de que otros reciban menores ganancias y paguen las consecuencias de los aprovechamientos. Este es un criterio que debe evaluarse tanto al interior de los sistemas como hacia las escalas subyacentes, pues por lo común la polarización de los costos y beneficios trasciende las propias fronteras de los sistemas. Es el caso por ejemplo entre la producción, realizada en países subdesarrollados y el consumo de los países desarrollados.</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>7</id>
+	<literal>Autosuficiencia</literal>
+	<description>Es una cualidad de los sistemas para realizar sus procesos y funciones mediante sus propios recursos</description>
+	<img></img>
+</diagnosticCriteria>
+<diagnosticCriteria>
+	<id>8</id>
+	<literal>Organización y regulación</literal>
+	<description>Este criterio se refiere a la capacidad de mantener funcionales y en sincronía las estructuras sociales para la reproducción de los sistemas de manejo, tales como los mecanismos de producción, conservación y distribución de recursos.</description>
+	<img></img>
+</diagnosticCriteria>

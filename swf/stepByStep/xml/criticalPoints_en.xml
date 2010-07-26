@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<criticalPoint>
+	<id>1</id>
+	<literal>Low agricultural productivity </literal>
+	<shortTitle>Returns</shortTitle>
+	<description>According to farmers, grain production in this system barely satisfies the family’s annual demand for grain.</description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>2</id>
+	<literal>High resource use efficiency</literal>
+	<shortTitle>Efficiency</shortTitle>
+	<description>Agricultural production depends on energy provided by humans and animals.</description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>3</id>
+	<literal>Soil degradation</literal>
+	<shortTitle>Conservation</shortTitle>
+	<description>There are no soil conservation practices applied to this system. Hence, soils suffer fertility loss and erosion.</description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>4</id>
+	<literal>High diversity of products </literal>
+	<shortTitle>Diversity</shortTitle>
+	<description>The RAS manages different crops to secure the family’s food self-sufficiency. </description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>5</id>
+	<literal>Faulty distribution of resources</literal>
+	<shortTitle>Distribution</shortTitle>
+	<description>Government credits and programs are not equitably distributed. They are monopolized by some producers.</description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>6</id>
+	<literal>Low levels of participation in decision-making</literal>
+	<shortTitle>Participation</shortTitle>
+	<description>Attendance to the ejido assemblies is very low. In addition, there is very little interest on the part of producers to strengthen power of this decision-making organ.</description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>7</id>
+	<literal>Low capacity for technological innovation </literal>
+	<shortTitle>Innovation and Change</shortTitle>
+	<description>Due to the biophysical conditions of agricultural plots and the socioeconomic situation of the farmers, this system presents problems for the integration of new technology that could help increase agricultural productivity. </description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>
+<criticalPoint>
+	<id>8</id>
+	<literal>Low dependency on external inputs </literal>
+	<shortTitle>Self-sufficiency</shortTitle>
+	<description>The RAS depends very little on external inputs for production.</description>
+	<img></img>
+	<type>strength</type>
+</criticalPoint>
+<criticalPoint>
+	<id>9</id>
+	<literal>Low capability of self-direction</literal>
+	<shortTitle>Organization</shortTitle>
+	<description>There is no organization that deals with agricultural production in the ejido, and the only institution, the ejido assembly, which could help regulate and manage resources, is severely weakened. </description>
+	<img></img>
+	<type>weakness</type>
+</criticalPoint>	

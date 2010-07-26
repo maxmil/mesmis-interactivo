@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<subsystem>
+	<id>1</id>
+	<literal>Subsistema Agricola</literal>
+	<description>El propósito de este subsistema es el autoabasto de maíz y en menor cantidad, calabaza, frijol y chilacayote, también para el autoconsumo familiar. 
+Se practica en laderas con pendientes que van del 4 al 13 por ciento, con rotación anual o bianual alternada de 2 ó 3 parcelas. 
+El predio agrícola tiene una superficie promedio de 6 hectáreas, divididas en parcelas de 2 a 3 hectáreas cada una. Cada parcela permanece bajo cultivo por 9 meses (marzo a noviembre) y luego en descanso durante 11 meses (diciembre a octubre).</description>
+	<img>agricola.jpg</img>
+</subsystem>
+<subsystem>
+	<id>2</id>
+	<literal>Subsistema Forestal</literal>
+	<description>Por lo general los productores de Casas Blancas destinan 22 hectáreas para actividades forestales, de las 30 que conforman la unidad de producción. 
+Esta superficie a su vez está subdividida en áreas de monte (aprovechamiento) y reforestación y aporta productos con valor de uso (combustible, especies medicinales y comestibles). 
+Las especies de pino utilizadas en este sistema son el Pinus  pseudostrobus Lind., Pinus michoacana Martínez, Pinus patula Schl. et Cham., y Pinus greggii Engelm.</description>
+	<img>forestal.jpg</img>
+</subsystem>
+<subsystem>
+	<id>3</id>
+	<literal>Subsistema Pecuario</literal>
+	<description>El tamaño del hato promedio es de 5 cabezas de ganado bovino (incluyendo la yunta), 2 de caballar de raza criolla (los caballos se mantienen en el poblado) y aves de corral representadas por gallinas y pavos principalmente. El tiempo de engorda para la venta de una cabeza dura normalmente 3 años. 
+El subsistema pecuario provee entonces en este sistema un medio de producción, un ingreso por venta periódica y una fuente monetaria inmediata en caso de necesidad.</description>
+	<img>pecuario.jpg</img>
+</subsystem>
+<subsystem>
+	<id>4</id>
+	<literal>Unidad Familiar</literal>
+	<description>Las familias habitan en un espacio conocido como solar ubicado fuera de la parcela. En el se encuentra la vivienda y las aves de traspatio. En promedio una familia esta constituida por seis miembros.</description>
+	<img>familia.jpg</img>
+</subsystem>
+<subsystem>
+	<id>5</id>
+	<literal>Exterior</literal>
+	<description></description>
+	<img></img>
+</subsystem>
+
+

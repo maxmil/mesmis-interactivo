@@ -1,0 +1,220 @@
+
+<flash_project version='1' name='cd_mesmis'>
+  <project_folder expanded='true' name='core'>
+    <project_folder expanded='false' name='comp'>
+      <project_file path='core\comp\Amoeba.as' filetype='as'/>
+      <project_file path='core\comp\BubbleBtn.as' filetype='as'/>
+      <project_file path='core\comp\ComponentWindow.as' filetype='as'/>
+      <project_file path='core\comp\DialogBox.as' filetype='as'/>
+      <project_file path='core\comp\DropDownMenu.as' filetype='as'/>
+      <project_file path='core\comp\EmergingText.as' filetype='as'/>
+      <project_file path='core\comp\EyeBtn.as' filetype='as'/>
+      <project_file path='core\comp\Graph.as' filetype='as'/>
+      <project_file path='core\comp\RainingText.as' filetype='as'/>
+      <project_file path='core\comp\ResultTable.as' filetype='as'/>
+      <project_file path='core\comp\Scroll.as' filetype='as'/>
+      <project_file path='core\comp\TextPane.as' filetype='as'/>
+      <project_file path='core\comp\TrailingText.as' filetype='as'/>
+      <project_file path='core\comp\UserMessage.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='controller'>
+      <project_file path='core\controller\Activity.as' filetype='as'/>
+      <project_file path='core\controller\Application.as' filetype='as'/>
+      <project_file path='core\controller\GenericActivity.as' filetype='as'/>
+      <project_file path='core\controller\Nav.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='lang'>
+      <project_file path='core\lang\Messages.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='util'>
+      <project_file path='core\util\CustomFormatter.as' filetype='as'/>
+      <project_file path='core\util\GenericMovieClip.as' filetype='as'/>
+      <project_file path='core\util\Proxy.as' filetype='as'/>
+      <project_file path='core\util\Utils.as' filetype='as'/>
+    </project_folder>
+  </project_folder>
+  <project_folder expanded='false' name='intro'>
+    <project_folder expanded='false' name='activity'>
+      <project_file path='intro\activity\Init.as' filetype='as'/>
+      <project_file path='intro\activity\MenuPrincipal.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='comp'>
+      <project_file path='intro\comp\MesmisMovieLoader.as' filetype='as'/>
+      <project_file path='intro\comp\MesmisPhotoGrid.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='utils'>
+      <project_file path='intro\utils\IntroTxtFormats.as' filetype='as'/>
+      <project_file path='intro\utils\IntroUtils.as' filetype='as'/>
+    </project_folder>
+    <project_file path='intro\Const.as' filetype='as'/>
+    <project_file path='intro\IntroApp.as' filetype='as'/>
+    <project_file path='intro\UserSession.as' filetype='as'/>
+  </project_folder>
+  <project_folder expanded='true' name='lindissima'>
+    <project_folder expanded='true' name='activity'>
+      <project_file path='lindissima\activity\CornModel.as' filetype='as'/>
+      <project_file path='lindissima\activity\CornShrubModel.as' filetype='as'/>
+      <project_file path='lindissima\activity\Init.as' filetype='as'/>
+      <project_file path='lindissima\activity\LakeModel.as' filetype='as'/>
+      <project_file path='lindissima\activity\LindActivity.as' filetype='as'/>
+      <project_file path='lindissima\activity\MenuPrincipal.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='comp'>
+      <project_folder expanded='false' name='cornModel'>
+        <project_file path='lindissima\comp\cornModel\ExploreCornModel.as' filetype='as'/>
+        <project_file path='lindissima\comp\cornModel\ExploreCornModelAuxGraphs.as' filetype='as'/>
+      </project_folder>
+      <project_folder expanded='false' name='cornShrubModel'>
+        <project_file path='lindissima\comp\cornShrubModel\ExploreCornShrubModel.as' filetype='as'/>
+        <project_file path='lindissima\comp\cornShrubModel\ExploreCornShrubModelAmoeba.as' filetype='as'/>
+        <project_file path='lindissima\comp\cornShrubModel\ExploreCornShrubModelAnualDetail.as' filetype='as'/>
+        <project_file path='lindissima\comp\cornShrubModel\ExploreCornShrubModelAuxGraphs.as' filetype='as'/>
+      </project_folder>
+      <project_folder expanded='false' name='lakeModel'>
+        <project_file path='lindissima\comp\lakeModel\ExploreBistableLakeModel.as' filetype='as'/>
+        <project_file path='lindissima\comp\lakeModel\ExploreLakeModel.as' filetype='as'/>
+        <project_file path='lindissima\comp\lakeModel\FindLimitLakeModel.as' filetype='as'/>
+        <project_file path='lindissima\comp\lakeModel\LMPhaseDiagram.as' filetype='as'/>
+        <project_file path='lindissima\comp\lakeModel\LMPhaseDiagram.tangent.as' filetype='as'/>
+        <project_file path='lindissima\comp\lakeModel\RandomInitCondLakeModel.as' filetype='as'/>
+      </project_folder>
+    </project_folder>
+    <project_folder expanded='false' name='model'>
+      <project_file path='lindissima\model\InitParam.as' filetype='as'/>
+      <project_file path='lindissima\model\InitParamCollection.as' filetype='as'/>
+      <project_file path='lindissima\model\InitParams.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='process'>
+      <project_file path='lindissima\process\CornBiomass.as' filetype='as'/>
+      <project_file path='lindissima\process\ExtShrubRoots.as' filetype='as'/>
+      <project_file path='lindissima\process\FarmerNetProfit.as' filetype='as'/>
+      <project_file path='lindissima\process\FNCorn.as' filetype='as'/>
+      <project_file path='lindissima\process\FNShrub.as' filetype='as'/>
+      <project_file path='lindissima\process\FolPruneBiomass.as' filetype='as'/>
+      <project_file path='lindissima\process\FolPruneOnGround.as' filetype='as'/>
+      <project_file path='lindissima\process\LakeNetProfit.as' filetype='as'/>
+      <project_file path='lindissima\process\NAvailCorn.as' filetype='as'/>
+      <project_file path='lindissima\process\NAvailShrub.as' filetype='as'/>
+      <project_file path='lindissima\process\NExtractCorn.as' filetype='as'/>
+      <project_file path='lindissima\process\NExtractShrub.as' filetype='as'/>
+      <project_file path='lindissima\process\NFiltered.as' filetype='as'/>
+      <project_file path='lindissima\process\NInPrune.as' filetype='as'/>
+      <project_file path='lindissima\process\NInSoil.as' filetype='as'/>
+      <project_file path='lindissima\process\Process.as' filetype='as'/>
+      <project_file path='lindissima\process\ShrubBiomass.as' filetype='as'/>
+      <project_file path='lindissima\process\WeedCon.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='test'>
+      <project_folder expanded='false' name='util'>
+        <project_file path='lindissima\test\util\GenerateTestValues.as' filetype='as'/>
+        <project_file path='lindissima\test\util\TestActivity.as' filetype='as'/>
+      </project_folder>
+      <project_file path='lindissima\test\AllTests.as' filetype='as'/>
+      <project_file path='lindissima\test\CornShrubModel.as' filetype='as'/>
+      <project_file path='lindissima\test\TestCSModel_default.as' filetype='as'/>
+      <project_file path='lindissima\test\TestCSModel_fertilizer.as' filetype='as'/>
+      <project_file path='lindissima\test\TestCSModel_noShrub.as' filetype='as'/>
+      <project_file path='lindissima\test\TestCSModel_rootPrune.as' filetype='as'/>
+      <project_file path='lindissima\test\TestLakeModel_default.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='utils'>
+      <project_file path='lindissima\utils\LTxtFormats.as' filetype='as'/>
+      <project_file path='lindissima\utils\LUtils.as' filetype='as'/>
+    </project_folder>
+    <project_file path='lindissima\Const.as' filetype='as'/>
+    <project_file path='lindissima\LindApp.as' filetype='as'/>
+    <project_file path='lindissima\UserSession.as' filetype='as'/>
+  </project_folder>
+  <project_folder expanded='true' name='stepByStep'>
+    <project_folder expanded='true' name='activity'>
+      <project_folder expanded='true' name='characterization'>
+        <project_file path='stepByStep\activity\characterization\DefineSystem.as' filetype='as'/>
+        <project_file path='stepByStep\activity\characterization\SelectIndicators.as' filetype='as'/>
+        <project_file path='stepByStep\activity\characterization\StrengthsAndWeaknesses.as' filetype='as'/>
+      </project_folder>
+      <project_folder expanded='true' name='integration'>
+        <project_file path='stepByStep\activity\integration\CalcIndic.as' filetype='as'/>
+        <project_file path='stepByStep\activity\integration\CalcWeights.as' filetype='as'/>
+        <project_file path='stepByStep\activity\integration\DefineAmoebas.as' filetype='as'/>
+      </project_folder>
+      <project_file path='stepByStep\activity\Conclusions.as' filetype='as'/>
+      <project_file path='stepByStep\activity\Init.as' filetype='as'/>
+      <project_file path='stepByStep\activity\MenuPrincipal.as' filetype='as'/>
+      <project_file path='stepByStep\activity\StepByStepActivity.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='comp'>
+      <project_file path='stepByStep\comp\BarGraph.as' filetype='as'/>
+      <project_file path='stepByStep\comp\DefineSystemComp.as' filetype='as'/>
+      <project_file path='stepByStep\comp\Optimizer.as' filetype='as'/>
+      <project_file path='stepByStep\comp\SelectComponents.as' filetype='as'/>
+      <project_file path='stepByStep\comp\SelectFlows.as' filetype='as'/>
+      <project_file path='stepByStep\comp\TblIndicators.as' filetype='as'/>
+      <project_file path='stepByStep\comp\TblIndicatorWeights.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='model'>
+      <project_folder expanded='true' name='valueObject'>
+        <project_file path='stepByStep\model\valueObject\Comp.as' filetype='as'/>
+        <project_file path='stepByStep\model\valueObject\CriticalPoint.as' filetype='as'/>
+        <project_file path='stepByStep\model\valueObject\DiagnosticCriteria.as' filetype='as'/>
+        <project_file path='stepByStep\model\valueObject\Flow.as' filetype='as'/>
+        <project_file path='stepByStep\model\valueObject\Indicator.as' filetype='as'/>
+        <project_file path='stepByStep\model\valueObject\Subsystem.as' filetype='as'/>
+      </project_folder>
+      <project_file path='stepByStep\model\LoadXML.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='true' name='util'>
+      <project_file path='stepByStep\util\MTxtFormats.as' filetype='as'/>
+      <project_file path='stepByStep\util\MUtils.as' filetype='as'/>
+    </project_folder>
+    <project_file path='stepByStep\StepByStepApp.as' filetype='as'/>
+  </project_folder>
+  <project_folder expanded='false' name='sussi'>
+    <project_folder expanded='false' name='activity'>
+      <project_file path='sussi\activity\Init.as' filetype='as'/>
+      <project_file path='sussi\activity\PopulationEvolution.as' filetype='as'/>
+      <project_file path='sussi\activity\SussiActivity.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='comp'>
+      <project_file path='sussi\comp\H1PhaseDiagram.as' filetype='as'/>
+      <project_file path='sussi\comp\PopulationGraph.as' filetype='as'/>
+      <project_file path='sussi\comp\RelationsDiagram.as' filetype='as'/>
+      <project_file path='sussi\comp\RelationsTable.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='model'>
+      <project_file path='sussi\model\InitParam.as' filetype='as'/>
+      <project_file path='sussi\model\InitParamCollection.as' filetype='as'/>
+      <project_file path='sussi\model\InitParams.as' filetype='as'/>
+      <project_file path='sussi\model\Relations.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='process'>
+      <project_file path='sussi\process\Bc.as' filetype='as'/>
+      <project_file path='sussi\process\Bh1.as' filetype='as'/>
+      <project_file path='sussi\process\Bh2.as' filetype='as'/>
+      <project_file path='sussi\process\Dc.as' filetype='as'/>
+      <project_file path='sussi\process\Dh1.as' filetype='as'/>
+      <project_file path='sussi\process\Dh2.as' filetype='as'/>
+      <project_file path='sussi\process\Pc.as' filetype='as'/>
+      <project_file path='sussi\process\Ph1.as' filetype='as'/>
+      <project_file path='sussi\process\Ph2.as' filetype='as'/>
+      <project_file path='sussi\process\Process.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='test'>
+      <project_folder expanded='false' name='util'>
+        <project_file path='sussi\test\util\GenerateTestValues.as' filetype='as'/>
+        <project_file path='sussi\test\util\TestActivity.as' filetype='as'/>
+      </project_folder>
+      <project_file path='sussi\test\AllTests.as' filetype='as'/>
+      <project_file path='sussi\test\TestInitParams.as' filetype='as'/>
+      <project_file path='sussi\test\TestSUSSIModel_default.as' filetype='as'/>
+      <project_file path='sussi\test\TestSUSSIModel_H1C.as' filetype='as'/>
+      <project_file path='sussi\test\TestSUSSIModel_H1Only.as' filetype='as'/>
+    </project_folder>
+    <project_folder expanded='false' name='utils'>
+      <project_file path='sussi\utils\STxtFormats.as' filetype='as'/>
+      <project_file path='sussi\utils\SUtils.as' filetype='as'/>
+    </project_folder>
+    <project_file path='sussi\Const.as' filetype='as'/>
+    <project_file path='sussi\SussiApp.as' filetype='as'/>
+    <project_file path='sussi\UserSession.as' filetype='as'/>
+  </project_folder>
+</flash_project>
