@@ -139,7 +139,7 @@ import intro.IntroApp;
 		//attach loader
 		var loaderBar:MovieClip = contClip.blinds.topBg.attachMovie("loaderBar", "loaderBar", 1, {_x:370, _y:370});
 		var txtMc:MovieClip = contClip.blinds.topBg.createEmptyMovieClip("loaderTxt", 2);
-		var txt:String = "  0% CARGADO";
+		var txt:String = "  0% " + IntroApp.getMsg("general.loaded");;
 		for (var i = 0; i<txt.length; i++) {
 			txtMc.attachMovie("Loader Text", "loaderText"+String(i), i+1);
 			txtMc["loaderText"+String(i)]._x = 400+10*i;
@@ -186,7 +186,8 @@ import intro.IntroApp;
 		
 		//set movie initial parameters
 		currMovie.initType = "full";
-		currMovie.loadLangString = "CARGANDO TEXTOS..."
+		currMovie.locale = _root.locale;
+		currMovie.loadLangString = IntroApp.getMsg("general.loadingTexts");
 		currMovie.exitObj = this;
 		currMovie.exitFunc = doUnloadMovie;
 	

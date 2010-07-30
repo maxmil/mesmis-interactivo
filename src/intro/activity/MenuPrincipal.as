@@ -47,8 +47,36 @@ import intro.comp.MesmisMovieLoader;
 		
 		//attach background if not present
 		if (!_root.main_bg){
+		
 			//attach background
 			_root.attachMovie("main_bg", "main_bg", 0, {txtTitle:IntroApp.getMsg("general.txtTitle"), txtSubtitle:IntroApp.getMsg("general.txtSubtitle")});
+			
+			// add fullscreen button
+			var btnFs = this["bg"].attachMovie("btn_full_screen", "btn_fs", this["bg"].getNextHighestDepth());
+			btnFs._x = 930;
+			btnFs._y = -24;
+			btnFs.activity = this;
+			btnFs.txt = (Stage.displayState == "fullScreen") ? IntroApp.getMsg("btn.leaveFullScreen") : IntroApp.getMsg("btn.goFullScreen");
+			btnFs.onRollOver = function(){
+				var w:Number = 120;
+				IntroApp.getTxtFormat("smallTxtFormat").align = "center";
+				Utils.newObject(UserMessage, this.activity, "roll_msg", this.activity.getNextHighestDepth(), {w:w, txt:this.txt, txtFormat:IntroApp.getTxtFormat("smallTxtFormat"), btnClose:false, allowDrag:false, curveDist:2, shadowLength:5});
+				IntroApp.getTxtFormat("smallTxtFormat").align = "left";
+				this.activity["roll_msg"]._x = this._x+this._width-this.activity["roll_msg"]._width;
+				this.activity["roll_msg"]._y = this._y+15;
+			}
+			btnFs.onRollOut = function(){
+				this.activity["roll_msg"].removeMovieClip();
+			}
+			btnFs.onRelease = function(){
+				if(Stage.displayState != "fullScreen"){
+					Stage.displayState = "fullScreen";
+					this.txt = IntroApp.getMsg("btn.leaveFullScreen");
+				}else{
+					Stage.displayState = "normal";
+					this.txt = IntroApp.getMsg("btn.goFullScreen");
+				}
+			}
 		}
 		
 		//initialize the content clip
@@ -57,7 +85,7 @@ import intro.comp.MesmisMovieLoader;
 		//initialize the movie loader
 		preloadClip = this.createEmptyMovieClip("preloadClip", getNextHighestDepth());
 		mml = new MesmisMovieLoader(preloadClip);
-		mml.addSubMovie(Const.MOVIE_MESMIS_PROJECT, "PresMESMIS.swf");
+		mml.addSubMovie(Const.MOVIE_MESMIS_PROJECT, "PresMESMIS_" + _root.locale + ".swf");
 		mml.addSubMovie(Const.MOVIE_MESMIS_STEP_BY_STEP, "cdStepByStep.swf");
 		mml.addSubMovie(Const.MOVIE_LINDISSIMA, "cdLindissima.swf");
 		mml.addSubMovie(Const.MOVIE_SUSSI, "cdSussi.swf");

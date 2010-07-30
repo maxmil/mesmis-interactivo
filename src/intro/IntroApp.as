@@ -5,6 +5,7 @@ import intro.UserSession;
 import intro.utils.IntroTxtFormats;
 import ascb.util.logging.LogManager;
 import ascb.util.logging.Logger;
+import flash.external.ExternalInterface;
 
 /*
  * The entry point to the application Sussi. Entry should be via the
@@ -67,8 +68,10 @@ class intro.IntroApp {
 		usrSession = new UserSession();
 
 		//define messages path based on locale
-		locale = (_root.locale) ? _root.locale: "es";
-		messagesPath = "intro/xml/messages_intro_" + locale + ".xml";
+		if(!_root.locale){
+			_root.locale = "es";
+		}
+		messagesPath = "intro/xml/messages_intro_" + _root.locale + ".xml";
 		
 		//log
 		logger.debug("application created");
@@ -226,9 +229,12 @@ class intro.IntroApp {
 	 * Closes the projector, which quits the application
 	 */
 	public static function quitApp():Void{
-		getURL("javascript:window.opener=self; window.close()");
+		if(_root.isStandAlone){
+			fscommand("quit");
+		}else{
+			ExternalInterface.call("closeApp");
+		}
 	}
-	
 	
 	/*
 	 * If the application has been loaded into another movie this

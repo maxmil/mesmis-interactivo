@@ -7,7 +7,7 @@
  */
  class intro.utils.IntroTxtFormats {
 	 
-	
+	public var smallTxtFormat:TextFormat;
 	public var defaultTxtFormat:TextFormat;
 	public var defaultTitleTxtFormat:TextFormat;
 	public var titleTxtFormat:TextFormat;
@@ -17,6 +17,13 @@
 	
 
 	function IntroTxtFormats(){
+	
+		//init small text format
+		smallTxtFormat = new TextFormat ();
+		smallTxtFormat.size = 10;
+		smallTxtFormat.font = "Arial";
+		smallTxtFormat.color = 0x996633;
+		smallTxtFormat.bold = false;
 
 		//init default text format
 		defaultTxtFormat = new TextFormat();

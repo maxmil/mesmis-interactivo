@@ -237,6 +237,14 @@ class intro.activity.Init extends core.util.GenericMovieClip{
 			IntroApp.getNav().getNext();
 		}
 		
+		//create fullscreen text
+		if(!_root.isStandAlone){
+			var fullScreen:MovieClip = this.createEmptyMovieClip("fullScreen", 3);
+			Utils.createTextField("txt", fullScreen, 1, 0, 690, 200, 1, IntroApp.getMsg("btn.goFullScreen") + " >", IntroApp.getTxtFormat("softTitleTxtFormat"));
+			fullScreen.onRelease = function(){
+				Stage.displayState = "fullscreen";
+			}
+		}
 		
 		//open curtain
 		this["curtain"].gotoAndPlay(40);
