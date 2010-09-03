@@ -6,6 +6,7 @@ To create cd distribution
 3) If locale is not es add locale="en" to first frame of mesmis-interactivo.fla and export
 4) Export mesmis-interactivo as exe. Rename with underscore instead of hyphen (genisoimage produces underscores). Update autorun.inf with correct name of the exe.
 4) Copy contents of swf to cdroot. Rename index file for language to index.html and delete index files not being used.
+4) Change hyphen to underscore in mesmis-interactivo.swf / mesmis-interactive.swf
 5) Open ResHacker and modify exe. Replace all icons and version information.
 6) From cdroot folder create iso (name of iso varies depending on language)
       genisoimage -max-iso9660-filenames --allow-lowercase -o ../mesmis-interactive.iso .

@@ -1,4 +1,4 @@
-﻿import core.util.Utils;
+import core.util.Utils;
 import core.comp.EmergingText;
 import core.comp.BubbleBtn;
 import core.comp.RainingText;
@@ -178,7 +178,7 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 				stepsReq = 2;
 				break;
 			case 6:
-				stepsReq = 4;
+				stepsReq = 2;
 				break;
 			case 11:
 				stepsReq = 6;
@@ -276,15 +276,8 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	 * Step 4 Initialize global variables
 	 */
 	private function step4():Void{
-		
-		//box previous raining text and move out of the way
-		this["loadLang"].glideTo(0,-40, 10);
-		this["loadData"].showBox();
-		this["loadData"].glideTo(0,-20, 10);
-		
 
-		//create raining text
-		var rt:RainingText = RainingText(Utils.newObject(core.comp.RainingText, this, "initGlobals", this.getNextHighestDepth(), {txt:LindApp.getMsg("init.initializeGlobals"), initX:-300, initY:398, finX:400, txtCol:0xff6633, onComplete:Proxy.create(this, nextStep), _order:"reverse"}));
+      nextStep();
 		
 	}		
 	
@@ -292,15 +285,8 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	 * Step 5 Initialize activities
 	 */
 	private function step5():Void{
-		
-		//box previous raining text and move out of the way
-		this["loadLang"].glideTo(0,-60, 10);
-		this["loadData"].glideTo(0,-40, 10);
-		this["initGlobals"].showBox();
-		this["initGlobals"].glideTo(0,-20, 10);
-		
-		//create raining text
-		var rt:RainingText = RainingText(Utils.newObject(core.comp.RainingText, this, "initActivities", this.getNextHighestDepth(), {txt:LindApp.getMsg("init.initializeActivities"), initX:960, initY:398, finX:400, txtCol:0x33ff99, onComplete:Proxy.create(this, nextStep), _order:"normal"}));
+
+      nextStep();
 		
 	}
 	
@@ -310,9 +296,7 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	private function step6():Void{
 		this["loadLang"].glideTo(-400, -380, 10, Proxy.create(this, this.stepPartDone, 6));
 		this["loadData"].glideTo(560-this["loadData"]._width, -380, 10, Proxy.create(this, this.stepPartDone, 6));
-		this["initGlobals"].glideTo(-400, 320, 10, Proxy.create(this, this.stepPartDone, 6));
-		this["initActivities"].showBox();
-		this["initActivities"].glideTo(560-this["initActivities"]._width, 320, 10, Proxy.create(this, this.stepPartDone, 6));	}
+	}
 	
 	/*
 	 * Step 7 Show fist half of title
@@ -322,12 +306,10 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 		//remove initializations
 		this["loadLang"].alphaTo(0, 30, this["loadLang"], Proxy.create(this["loadLang"], this["loadLang"].removeMovieClip));
 		this["loadData"].alphaTo(0, 30, this["loadData"], Proxy.create(this["loadData"], this["loadData"].removeMovieClip));
-		this["initGlobals"].alphaTo(0, 30, this["initGlobals"], Proxy.create(this["initGlobals"], this["initGlobals"].removeMovieClip));
-		this["initActivities"].alphaTo(0, 30, this["initActivities"], Proxy.create(this["initActivities"], this["initActivities"].removeMovieClip));
 		
 		//get width of title
 		var txt:String = LindApp.getMsg("init.title.1");
-		var w:Number = titleTxtFormat.getTextExtent(txt).textFieldWidth*1.2;
+		var w:Number = titleTxtFormat.getTextExtent(txt).textFieldWidth;
 		
 		//create first half of title
 		Utils.newObject(EmergingText, this["curtain"].topBg, "title1", 1, {txt:txt, _x:(960-w)/2, _y:70, txtFormat:titleTxtFormat, bgcolor:0x006600, onComplete:Proxy.create(this, this.nextStep)});
@@ -346,7 +328,7 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 		
 		//get width of title
 		var txt:String = LindApp.getMsg("init.title.2");
-		var w:Number = titleTxtFormat.getTextExtent(txt).textFieldWidth*1.2;
+		var w:Number = titleTxtFormat.getTextExtent(txt).textFieldWidth;
 		
 		//create second half of title
 		Utils.newObject(EmergingText, this["curtain"].topBg, "title2", 2, {txt:txt, _x:(960-w)/2, _y:100, txtFormat:titleTxtFormat, bgcolor:0x006600, onComplete:Proxy.create(this, this.nextStep)});
@@ -357,8 +339,8 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	 */
 	private function step9():Void{
 		var txt:String = LindApp.getMsg("init.interactiveWork");
-		var w:Number = bigTxtFormat.getTextExtent(txt).textFieldWidth*1.2;
-		var h:Number = bigTxtFormat.getTextExtent(txt).textFieldHeight*1.2;
+		var w:Number = bigTxtFormat.getTextExtent(txt).textFieldWidth;
+		var h:Number = bigTxtFormat.getTextExtent(txt).textFieldHeight;
 		Utils.newObject(TrailingText, this["curtain"].topBg, "interactiveWork", 3, {txt:txt, _x:(960-w)/2, _y:400-h, finY:-200, txtFormat:bigTxtFormat, bgCol:0x006600, onComplete:Proxy.create(this, this.nextStep)});
 	}
 	
@@ -367,8 +349,8 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	 */
 	private function step10():Void{
 		var txt:String = LindApp.getMsg("init.authors");
-		var w:Number = medTxtFormat.getTextExtent(txt).textFieldWidth*1.2;
-		var h:Number = medTxtFormat.getTextExtent(txt).textFieldHeight*1.2;
+		var w:Number = medTxtFormat.getTextExtent(txt).textFieldWidth;
+		var h:Number = medTxtFormat.getTextExtent(txt).textFieldHeight;
 		Utils.newObject(TrailingText, this["curtain"].topBg, "authors", 4, {txt:txt, _x:(960-w)/2, _y:400-h, finY:-100, txtFormat:medTxtFormat, bgCol:0x006600, onComplete:Proxy.create(this, this.nextStep)});
 	}
 	
@@ -442,7 +424,7 @@ class lindissima.activity.Init extends core.util.GenericMovieClip{
 	private function step13():Void{
 	
 		//attach background
-		_root.attachMovie("lindissima_bg", "bg", 0, {txtTitle:StepByStepApp.getMsg("general.txtTitle")});
+		_root.attachMovie("lindissima_bg", "bg", 0, {txtTitle:LindApp.getMsg("general.txtTitle")});
 		
 		//remove load texts
 		this["loadLang"].removeMovieClip();
