@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <component>
 	<id>1</id>
-	<literal>NATURAL FOREST AREAS</literal>
+	<literal>FORESTED AREAS</literal>
 	<subsystem>2</subsystem>
-	<description>Natural forest areas are the direct result of conservation efforts and, in some cases, of 25-year-old (or older) reforestations planted by the farmers’ parents and grandparents. </description>
+	<description>Forested areas are the result of conservation efforts and, in some cases, of 25-year-old (or older) reforestations planted by the farmers’ parents and grandparents. </description>
 	<img>monte.jpg</img>
 </component>
 <component>
 	<id>2</id>
-	<literal>REFORESTED AREAS</literal>
+	<literal>FOREST PLANTATIONS</literal>
 	<subsystem>2</subsystem>
-	<description>Each farmer assigns, on average, 13 hectares of his land to reforestation. Most of these lands are hillsides and slopes where agriculture has ceased because of excessive soil erosion and nutrient depletion. Reforestations are 1 to 15 years old and subsidized by federal and state programs. In general, the establishment and maintenance of these areas employ family labor. </description>
+	<description>Each farmer assigns, on average, 13 hectares to reforestation. Most of these lands are hillsides and slopes where agriculture has ceased because of excessive soil erosion and nutrient depletion. Reforestations are 1 to 15 years old and subsidized by federal and state programs. In general, the establishment and maintenance of these areas employ family labor. </description>
 	<img>reforestacion.jpg</img>
 </component>
 <component>
@@ -24,7 +24,7 @@
 	<id>4</id>
 	<literal>CULTIVATED PLOTS</literal>
 	<subsystem>1</subsystem>
-	<description> A variety of crops are raised during the 9-month agricultural cycle. Landrance maize is the main crop. Some farmers cultivate native varieties small of squash (Cucurbita pepo L.), fig-leaved gourd (Cucurbita ficifolia), and beans (Phaseolus vulgaris L.) on small areas of the plot. </description>
+	<description> A variety of crops are raised during the 9-month agricultural cycle. Landrace maize is the main crop. Some farmers cultivate native varieties small of squash (Cucurbita pepo L.), fig-leaved gourd (Cucurbita ficifolia), and beans (Phaseolus vulgaris L.) on small areas of the plot. </description>
 	<img>cultivo.jpg</img>
 </component>
 <component>
@@ -59,7 +59,7 @@
 	<id>9</id>
 	<literal>FAMILY</literal>
 	<subsystem>4</subsystem>
-	<description>An average family has 6 members. The family structure responds to a strong patriarchy, which is strengthened as the land-owning rights are traditionally assigned exclusively to the head of the family (usually the father). Nonetheless, in recent years, migration has slowly changed family organization. These changes include (1) the transfer of productive land tenure rights, responsibilities, and knowledge to women; (2) reduced availability of family labor; and (3) an increase in the average age of active producers. </description>
+	<description>An average family has 6 members. The family structure responds to a strong patriarchy, which is strengthened as the land-owning rights are traditionally assigned exclusively to the head of the family (usually the father). Nonetheless, in recent years, migration has slowly changed family organization. These changes include (1) the transfer of productive land tenure rights, responsibilities, and knowledge to women; (2) reduced availability of family labor; and (3) an increase in the average age of producers. </description>
 	<img>familia.jpg</img>
 </component>
 <component>
@@ -69,3 +69,5 @@
 	<description> The family has a variety of productive and non-productive assets related to the management of their land, such as accumulated knowledge and means of production.</description>
 	<img>acervos.jpg</img>
 </component>
+
+

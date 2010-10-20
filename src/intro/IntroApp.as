@@ -71,7 +71,8 @@ class intro.IntroApp {
 		if(!_root.locale){
 			_root.locale = "es";
 		}
-		messagesPath = "intro/xml/messages_intro_" + _root.locale + ".xml";
+		locale = _root.locale;
+		messagesPath = "intro/xml/messages_intro_" + locale + ".xml";
 		
 		//log
 		logger.debug("application created");

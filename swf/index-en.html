@@ -29,7 +29,7 @@
     // <![CDATA[
 
     var flashvars = {
-      targetURLStr: 'mesmisLibrary.swf;mesmis-interactive.swf',
+      targetURLStr: 'mesmisLibrary.swf;mesmis_interactive.swf',
       targetNamesStr: 'SHARED GRAPHICS (141Kb);APPLICATION LOADED (493Kb)',
       lastURLParamsStr: 'messagesPath:intro/xml/messages_intro_en.xml;loadLangString:LOADING TEXTS...',
       locale: 'en'
@@ -42,6 +42,12 @@
     function closeApp() {
         top.close();
     }
+
+    function openHomePage() {
+        var w = window.open('http://mesmis.gira.org.mx/?culture=en', '_blank');
+        w.focus();
+    }
+
 
     // ]]>
   </script>

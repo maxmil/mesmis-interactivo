@@ -2,14 +2,14 @@
 <flow>
 	<id>1</id>
 	<literal>TIMBER</literal>
-	<description>Timber is extracted on a small scale timber for use in house and fence construction, as well as for local crafts and furniture workshops. </description>
+	<description>Timber is extracted on a small scale for fence construction, handicrafts and furniture making. </description>
 	<subsysExit>2</subsysExit>
 	<subsysEntry>4</subsysEntry>
 	<img>madera.jpg</img>
 </flow>
 <flow>
 	<id>2</id>
-	<literal>FORESTRY SUBSIDIES</literal>
+	<literal>FORESTRY GRANTS</literal>
 	<description>Government subsidies comprise state economic support and plants to establish reforestations. In addition, the federal government issues an annual payment for maintenance of forest plantations. </description>
 	<subsysExit>5</subsysExit>
 	<subsysEntry>2</subsysEntry>
@@ -18,7 +18,7 @@
 <flow>
 	<id>3</id>
 	<literal>NON-TIMBER PRODUCTS</literal>
-	<description>Other products extracted from forests are pine seeds (which are sold to regional nurseries, pine cones and needles (used in craft-making), medicinal plants (such as “pescadillo”, “tepuza”, “cilantrillo”, etc.), and editable plants and fungi (“quelites”, berries, “tejocote”, and mushrooms). </description>
+	<description>Other products extracted from forests are pine seeds (which are sold to regional nurseries), pine cones and needles (used in handicraft making), medicinal plants (such as “pescadillo”, “tepuza”, “cilantrillo”, etc.), and editable plants and fungi (“quelites”, berries, “tejocote”, and mushrooms). </description>
 	<subsysExit>2</subsysExit>
 	<subsysEntry>4</subsysEntry>
 	<img>otros_forestal.jpg</img>
@@ -26,7 +26,7 @@
 <flow>
 	<id>4</id>
 	<literal>FIREWOOD</literal>
-	<description>Firewood is a product that mainly satisfies the family energy needs. Most firewood is obtained by gathering pruned branches and dead oak branches and trunks.</description>
+	<description>Firewood is a product that mainly satisfies the family energy needs. Most firewood is obtained by gathering dead oak branches and trunks.</description>
 	<subsysExit>2</subsysExit>
 	<subsysEntry>4</subsysEntry>
 	<img>lenya_carbon.jpg</img>
@@ -98,15 +98,15 @@
 <flow>
 	<id>13</id>
 	<literal>FERTILIZERS</literal>
-	<description>Producers base fertilization mainly on application of one ton of pig or cow manure per hectare. Manure is bought from farms in the region. </description>
+	<description>Producers base fertilization mainly on application of one ton of pig or cow manure per hectare. Manure is bought from farms in the region.</description>
 	<subsysExit>5</subsysExit>
 	<subsysEntry>1</subsysEntry>
 	<img>fertilizantes.jpg</img>
 </flow>
 <flow>
 	<id>14</id>
-	<literal>AGRICULTURAL SUBSIDIES</literal>
-	<description>Subsidies are channeled through a federal government program (PROCAMPO) and consists of less than a thousand Mexican pesos per hectare of cultivated maize (less than $80 USD/ha). </description>
+	<literal>AGRICULTURAL GRANTS</literal>
+	<description>Subsidies are channeled through a federal government program (PROCAMPO) and consists of $1,300 pesos per hectare of cultivated land ($100 USD/ha).</description>
 	<subsysExit>5</subsysExit>
 	<subsysEntry>1</subsysEntry>
 	<img>dinero.jpg</img>
@@ -114,7 +114,7 @@
 <flow>
 	<id>15</id>
 	<literal>AGRICULTURAL PRACTICES</literal>
-	<description> In agricultural production, work is divided into pre-harvest activities (related to tillage, planting, and weed control), and harvesting. The family provides most of the labor required throughout the agricultural cycle. </description>
+	<description> In agricultural production, work is divided into pre-harvest activities (related to tillage, planting, and weed control), and harvesting. The family provides most of the labor required throughout the agricultural cycle.</description>
 	<subsysExit>4</subsysExit>
 	<subsysEntry>1</subsysEntry>
 	<img>mano_agricola.jpg</img>
@@ -130,7 +130,7 @@
 <flow>
 	<id>17</id>
 	<literal>OTHER AGRICULTURAL PRODUCTS</literal>
-	<description>Other products from the agricultural subsystem are squash and fig-leaf gourd, which are basically used for home consumption.</description>
+	<description>Other products from the agricultural subsystem are squash and fig-leaf gourd, which are basically used for household consumption.</description>
 	<subsysExit>1</subsysExit>
 	<subsysEntry>4</subsysEntry>
 	<img>otrosProdAgric.jpg</img>
@@ -145,8 +145,8 @@
 </flow>
 <flow>
 	<id>19</id>
-	<literal>RAW WOOD </literal>
-	<description>The ejido has an official forestry management plan that allows the extraction and commercialization of wood in regional sawmills. </description>
+	<literal>RAW WOOD</literal>
+	<description>The ejido has an official forestry management plan that allows the extraction and commercialization of wood in regional sawmills.</description>
 	<subsysExit>2</subsysExit>
 	<subsysEntry>5</subsysEntry>
 	<img>madera_rollo.jpg</img>
@@ -167,3 +167,5 @@
 	<subsysEntry>5</subsysEntry>
 	<img>carne_queso.jpg</img>
 </flow>
+
+

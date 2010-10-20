@@ -2,55 +2,57 @@
 <diagnosticCriteria>
 	<id>1</id>
 	<literal>Returns</literal>
-	<description>Returns are the profits (goods and services) obtained through investment (of money, infrastructure, human resources, or labor) in one or more productive activities. Returns are the incentive for developing resource management systems and determine their intensity. Some equivalent terms are: benefits, interest, dividends, gains, profit, yields, compensation and rewards.</description>
+	<description>Returns constitute the rewards obtained from one or more productive activities. Some equivalent terms are: benefits, interest, dividends, gains, profit and yields.</description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>2</id>
 	<literal>Efficiency</literal>
-	<description>Generally, efficiency refers to the ratio of returns to investment (money, energy, time, etc.) required to obtain it. For example, the ratio of the value of a market product to the cost of the resources used in its production, the achievement of an objective at the maximum quality possible with the minimum resource consumption, or the use and administration of resources needed for a certain activity. It can also be a form of measurement of the ability of a person, organization or process to fully perform a designated function. Efficiency can be measured for economic activities as well as for administrative, cultural, and environmental processes of a management system. The most efficient systems use to greater advantage its returns and, thus, have lower impacts on their resource base.</description>
+	<description>Generally, efficiency refers to a ratio of returns to investment. For example, the ratio of the value of a market product to its production cost, or the achievement of an objective at the maximum quality possible with the minimum resource consumption. It can also be a form of measurement of the ability of a person, organization or process to fully perform a designated task at a given time. Efficiency can be measured for economic activities as well as for administrative, cultural, or environmental processes of a management system. The most efficient systems have lower impacts on their resource base.</description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>3</id>
 	<literal>Conservation</literal>
-	<description>Conservation indicates a system’s capacity to prevent degradation of its structure and function, and of the resource base that sustains it. Conservation not only refers to the environmental aspects, but also to economic and social aspects, such as the capacity to save and maintain desired goods and services, or the conservation of traditional knowledge and practices. Conservation does not mean non-intervention.  On the contrary, conservation requires practices, technologies and resources to restore management systems, as well as to prevent their degradation. </description>
+	<description>Conservation indicates a system’s capacity to prevent degradation of its structure and function, and of the resource base that sustains it. Conservation not only refers to the environmental aspects, but also to economic and social aspects, such as the capacity to save and maintain desired goods and services, or the conservation of traditional knowledge and practices. Conservation requires practices, technologies and resources to restore management systems, as well as to prevent their degradation. </description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>4</id>
 	<literal>Diversity</literal>
-	<description>Diversity refers to the variety of elements of a system at a given point in time. Examples are the variety of biological and agricultural species, knowledge, ethnic groups, religious beliefs, etc. Some diversity indexes, such as the Shannon index, also include the abundance of elements as well as the variety. More diverse systems are more capable of absorbing negative impacts.</description>
+	<description>Diversity refers to the variety of elements of a system at a given point in time. Examples are the variety of biological and agricultural species, knowledge, ethnic groups, religious beliefs, etc. Some diversity indexes, such as the Shannon index, also include the abundance of elements as well as the variety. More diverse systems are more capable to buffer external shocks.</description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>5</id>
 	<literal>Distribution of costs and benefits</literal>
-	<description>This criterion refers to equity in terms of who pays for the costs and who receives the benefits of productive activities. Historically, this has been one of the main problems of traditional models of resource exploitation, in which profits are maximized for one sector at the expense of others who receive fewer benefits and pay the consequences. Distribution of costs and benefits must be evaluated both within the system and at subjacent scales, since polarization of costs and benefits commonly transcends the limits of the system. This is the case, for example, of production in developing countries and consumption in developed countries.</description>
+	<description>This criterion refers to the equality of distribution of costs and benefits of productive activities. Historically, this has been one of the main problems of traditional models of resource exploitation, where profits are maximized and concentrated for one sector at the expense of others who receive fewer benefits and pay the negative consequences. Distribution of costs and benefits must be evaluated both within the system and at subjacent scales.</description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>6</id>
-	<literal>Participation</literal>
+	<literal>Participation </literal>
 	<description></description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>7</id>
-	<literal>Innovation and adaptation to change</literal>
-	<description>It is the capacity to develop or adopt new management, technological, and organizational strategies for production and resource conservation. The capacity to change and to innovate allows continual renovation and transformation of systems. 
+	<literal>Capacity of change and innovation</literal>
+	<description>It is the capacity to develop or adopt new management, technological, and organizational strategies for production and resource conservation. The capacity to change and to innovate allows continual renovation and transformation of production systems. 
 </description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>8</id>
 	<literal>Self-sufficiency</literal>
-	<description>It is the capacity of systems to fully perform its functions and processes using its own resources.</description>
+	<description>It is the capacity of systems to fully perform its functions and processes using its own resources and capabilities.</description>
 	<img></img>
 </diagnosticCriteria>
 <diagnosticCriteria>
 	<id>9</id>
 	<literal>Organization</literal>		
-	<description>This criterion refers to the capacity to maintain social structures functional and synchronized to reproduce the management system, such as mechanisms of resource production, conservation and distribution. </description>
+	<description>This criterion denotes the capacity of a system to maintain functional and efficient social structures to perform its functions and task, such as production, resources conservation and distribution of costs and benefits. </description>
 	<img></img>
 </diagnosticCriteria>
+
+

@@ -3,7 +3,7 @@
 	<id>1</id>
 	<literal>Low agricultural productivity </literal>
 	<shortTitle>Returns</shortTitle>
-	<description>According to farmers, grain production in this system barely satisfies the family’s annual demand for grain.</description>
+	<description>Grain production in this system barely satisfies the family’s annual demand for grain.</description>
 	<img></img>
 	<type>weakness</type>
 </criticalPoint>
@@ -19,7 +19,7 @@
 	<id>3</id>
 	<literal>Soil degradation</literal>
 	<shortTitle>Conservation</shortTitle>
-	<description>There are no soil conservation practices applied to this system. Hence, soils suffer fertility loss and erosion.</description>
+	<description>There are no soil conservation practices applied to this system and soils suffer fertility loss and erosion.</description>
 	<img></img>
 	<type>weakness</type>
 </criticalPoint>
@@ -33,9 +33,9 @@
 </criticalPoint>
 <criticalPoint>
 	<id>5</id>
-	<literal>Faulty distribution of resources</literal>
+	<literal>Inequitable distribution of resources</literal>
 	<shortTitle>Distribution</shortTitle>
-	<description>Government credits and programs are not equitably distributed. They are monopolized by some producers.</description>
+	<description>Government credits and programs are not equitably distributed and are monopolized by some producers.</description>
 	<img></img>
 	<type>weakness</type>
 </criticalPoint>
@@ -65,9 +65,11 @@
 </criticalPoint>
 <criticalPoint>
 	<id>9</id>
-	<literal>Low capability of self-direction</literal>
+	<literal>Low capability of self-reliance</literal>
 	<shortTitle>Organization</shortTitle>
 	<description>There is no organization that deals with agricultural production in the ejido, and the only institution, the ejido assembly, which could help regulate and manage resources, is severely weakened. </description>
 	<img></img>
 	<type>weakness</type>
 </criticalPoint>	
+
+

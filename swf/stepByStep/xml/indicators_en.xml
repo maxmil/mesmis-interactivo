@@ -2,7 +2,7 @@
 <indicator>
 	<id>1</id>
 	<type>quantative</type>
-	<literal>Cost/Benefit Ratio</literal>
+	<literal>Cost/Benefit</literal>
     	<description>To calculate the Cost/Benefit ratio, we divided the total cost per hectare required to maintain agricultural production by the income per hectare obtained. Costs include all inputs necessary to maintain the system, including seeds, work animals, and the opportunity cost for labor. Incomes were estimated using annual production of grains and forage multiplied by its commercial value. The C/B ratio was 2.2 for the RAS, and 1.4 for the AAS.</description>
 	<attrib>Productivity</attrib>
 	<units>Coefficient</units>
@@ -10,7 +10,7 @@
 	<tradSystem>2.2</tradSystem>	
 	<comSystem>1.4</comSystem>
 	<areaEval>Economic</areaEval>
-	<measureMethod>TXTXTXTXT</measureMethod>
+	<measureMethod>Field work</measureMethod>
 	<measureDesc></measureDesc>
 	<min>1</min>
 	<max>2.4</max>
@@ -19,7 +19,7 @@
 	<comSystemCalc></comSystemCalc>
 	<isSel>true</isSel>
 	<isOptimize>true</isOptimize>
-	<optimizeDesc>Whatminimum value do you think would represent the worst scenario for this indicator? What maximum value would be the best scenario?
+	<optimizeDesc>What minimum value do you think would represent the worst scenario for this indicator? What maximum value would be the best scenario?
 For C/B ratio, values lower than 1 reveal economic losses for the system, that is, investments are higher than revenues. A value of 1 indicates equilibrium between investments and returns. In this case, there would be no profits and, thus, no incentives for production. In Casas Blancas, the maximum value for C/B ratio was 2.2</optimizeDesc>
 	<tradeOffQuotient>-50</tradeOffQuotient>
 	<img></img>
@@ -30,7 +30,7 @@ For C/B ratio, values lower than 1 reveal economic losses for the system, that i
 	<type>quantative</type>
 	<literal>Energy Efficiency </literal>
 	<description>The value for this indicator is the quotient between energy consumed during production (input) and the energy produced by the system (output). Energy consumption and productivity estimates are based on energy equivalents of inputs and products in rainfed agriculture as reported by different studies.
-According to these estimations, both systems are highly efficient. This is because they are largely based on traditional energy sources, such as animal traction, human labor, and organic fertilizers. Energy efficiency for the AAS is 17; while energy efficiency for the RAS is 15.</description>
+According to these estimations, both systems are highly efficient. This is because they are largely based on traditional energy sources, such as animal power, human labor, and organic fertilizers. Energy efficiency for the AAS is 17; while energy efficiency for the RAS is 15.</description>
 	<attrib>Productivity</attrib>
 	<units>Coefficient</units>
 	<objective>max</objective>
@@ -57,9 +57,9 @@ According to these estimations, both systems are highly efficient. This is becau
 	<literal>Nutrient Balance</literal>
 	<description>Balance of critical soil macronutrients is determined by a series of inputs and outputs.
 Inputs
-Fertilization in the RAS is basically 1 ton pig manure and 200 kg/ha di-ammonium sulfate during the planting, and 100 kg/ha ammonium sulfate on the first weeding. In the AAS, fertilization is based on a greater use of organic fertilizers. Furthermore, chemical fertilizers are replaced by nitrogen fixation through bean-maize intercropping. In addition, both agricultural systems receive nutrient inputs through cattle manure and urine deposits during the 3 months of fallow.
+Fertilization in the RAS is 1 ton pig manure and 200 kg/ha diammonium sulfate during the planting, and 100 kg/ha ammonium sulfate on the first weeding. In the AAS, fertilization is based on a greater use of organic fertilizers. Furthermore, chemical fertilizers are replaced by nitrogen fixation through bean-maize intercropping. In addition, both agricultural systems receive nutrient inputs through cattle manure and urine deposits during the 3 months of fallow.
 Outputs
-Nutrient outputs are mostly through extractions of biomass: maize and bean grains, and crop residues. Other important outputs are caused by water erosion and runoff. Total nitrogen flows were determined to assess the nutrient balance on both systems. To avoid negative numbers in the integration of results, we calculated the quotient of inputs divided by outputs (instead of the difference). The nutrient balance was 1.2 for the RAS and 1.0 for the AAS.</description>
+Nutrient outputs are mostly through extractions of biomass: maize and bean grains, and crop residues. Other important outputs are caused by water erosion and runoff. Total nitrogen flows were determined to assess the nutrient balance on both systems. To avoid negative values in the integration of results, we calculated the quotient of inputs divided by outputs (instead of the difference). The nutrient balance was 1.2 for the RAS and 1.0 for the AAS.</description>
 <attrib>Stability</attrib>
 	<units>Coefficient</units>
 	<objective>max</objective>
@@ -104,7 +104,7 @@ On the AAS, 50% of the forage produced was left as mulch to protect soil from wa
 	<isSel>true</isSel>
 	<isOptimize>true</isOptimize>
    	<optimizeDesc>What minimum value do you consider would represent the optimum levels of erosion? What maximum value would be the worst scenario in terms of erosion?
-Casas Blancas’ plots have slopes of 4% to 13% and shallow soils. Critical levels of erosion for this type of soils are 3 ton/ha/year or higher. Conservation tillage and mulching with crop cover residues, it is possible to reduce erosion down to 0.6 ton/ha/year. Fr terrain with 4 to 13% slopes and shallow soil, 3 ton/ha/year is considered critical</optimizeDesc>
+Conservation tillage and mulching with crop cover residues can reduce erosion to 0.6 ton/ha/year. On terrain with 4 to 13% slopes and shallow soil, 3 ton/ha/year is considered critical</optimizeDesc>
 	<tradeOffQuotient>70</tradeOffQuotient>
 	<img></img>
 	<graphic></graphic>
@@ -164,7 +164,7 @@ Besides these five, the AAS integrates beans and peas intercropped with maize. T
 	<id>7</id>
 	<type>quantative</type>
 	<literal>% attendance at ejido assemblies</literal>
-	<description>This indicator was estimated using the total attendance of members to 20 consecutive ejido assemblies. Percent attendance refers to the average percentage of members that attended a sample for RAS, and for ASS a sample was taken five years later. Attendace to these assemblies increased from 20% in RAS to 40% in the AAS due to the farmers’ growing interest in incorporating the innovations offered by the alternative system.
+	<description>This indicator was estimated using the total attendance of members to 20 consecutive ejido assemblies. Percent attendance refers to the average percentage of members that attended a sample for RAS, and for ASS a sample was taken five years later. Attendance to these assemblies increased from 20% in RAS to 40% in the AAS due to the farmers’ growing interest in incorporating the innovations offered by the alternative system.
 Attendance to assemblies reflects the farmers’ participation at the community level, but it is determinant in terms of management at the plot level.</description>
 	<attrib>Self-direction</attrib>
 	<units>%</units>
@@ -260,7 +260,7 @@ External inputs in the RAS include manure from commercial livestock operations, 
 <indicator>
 	<id>10</id>
 	<type>quantative</type>
-	<literal>Number of farmers in producers’ associations</literal>
+	<literal>Number of farmers in producers associations</literal>
 	<description>To evaluate this indicator, we used a survey to determine the number of farmers participating in some kind of organization for agricultural production. Off all the farmers, only 13 belonged to an organization. No difference between agricultural systems was found.
 Like the participation indicator, this indicator is measured at the community level, but, it is a determinant factor in the adoption of management strategies at the plot level.</description>
 	<attrib>Self-direction</attrib>
@@ -283,3 +283,5 @@ Like the participation indicator, this indicator is measured at the community le
 	<img></img>
 	<graphic></graphic>
 </indicator>
+
+

@@ -266,7 +266,23 @@ import intro.comp.MesmisMovieLoader;
 		btnMc.onRollOut = function(){
 			this.roll.alphaTo(0, 20);
 		}
-		btnMc.onRelease = Proxy.create(this.mml, this.mml.doLoadMovie, movieId);
+		if(movieId == Const.MOVIE_MESMIS_PROJECT){
+			btnMc.onRelease = Proxy.create(this, openHomePage);
+		}else{
+	      	btnMc.onRelease = Proxy.create(this.mml, this.mml.doLoadMovie, movieId);
+		}
+	}
+	
+	private function openHomePage():Void{
+		if(_root.isStandAlone){
+			getURL("http://mesmis.gira.org.mx/?culture=" + IntroApp.getLocale(), "_blank");
+		}else{
+			if(!ExternalInterface.call("openHomePage")){
+				var um:UserMessage = Utils.newObject(UserMessage, this.contentClip, "gotoweb_msg", this.contentClip.getNextHighestDepth(), {w:300, txt:IntroApp.getMsg("menuPrin.gotoWeb"), txtFormat:IntroApp.getTxtFormat("defaultTxtFormat"), _y: 100});
+				um._x = (Stage.width - um._width) / 2;
+			}
+		}
+		return;
 	}
 	
 	/*
